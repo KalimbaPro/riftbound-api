@@ -166,6 +166,8 @@ export function createApp(load: DataLoader, opts: { cacheSeconds?: number } = {}
 
   app.get('/version', async (c) => {
     const ix = await withData(c);
+    // Apps ask on every launch; a long client cache would hide a fresh update for an hour.
+    c.header('Cache-Control', 'public, max-age=60');
     return c.json(ix.data.version);
   });
 

@@ -111,6 +111,7 @@ describe('legality and ?region=', () => {
   it('/version returns the data tag', async () => {
     const { res, body } = await get('/version');
     expect(res.status).toBe(200);
+    expect(res.headers.get('Cache-Control')).toBe('public, max-age=60');
     expect(body).toEqual({ tag: '0123456789abcdef', generated_at: '2026-11-14T10:00:00+00:00', card_count: 3 });
   });
 
