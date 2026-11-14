@@ -1,0 +1,27 @@
+# kalimba-nas / any Docker host. Expose it with a Cloudflare Tunnel (see README).
+services:
+  api:
+    build: .
+    image: riftbound-api:latest
+    container_name: riftbound-api
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8787:8787" # tunnel/reverse proxy connects locally; no public port
+    environment:
+      PORT: 8787
+    # Mount the data so `git pull` (nightly CI commits) updates it without a rebuild;
+    # send SIGHUP (`docker compose kill -s HUP api`) to reload.
+    volumes:
+      - ./public:/app/public:ro
+
+  # Optional: Cloudflare Tunnel. Create the tunnel in the Zero Trust dashboard, route a
+  # public hostname to http://api:8787, put its token in .env as TUNNEL_TOKEN, then
+  # `docker compose --profile tunnel up -d`.
+  cloudflared:
+    profiles: [tunnel]
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run
+    environment:
+      TUNNEL_TOKEN: ${TUNNEL_TOKEN}
+    depends_on: [api]

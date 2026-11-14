@@ -1,0 +1,39 @@
+name: Check for new ban / errata articles
+on:
+  schedule:
+    - cron: '41 */6 * * *' # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - id: check
+        run: npm run check-sources -- --github-output
+      - name: Open an issue (once per article set)
+        if: steps.check.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLES: ${{ steps.check.outputs.titles }}
+          BODY: ${{ steps.check.outputs.new_articles }}
+        run: |
+          title="New ban/errata article: ${TITLES}"
+          if gh issue list --state all --search "in:title \"${TITLES}\"" --json number --jq 'length' | grep -qv '^0$'; then
+            echo "Issue already exists for: ${TITLES}"
+            exit 0
+          fi
+          gh label create content --color 0E8A16 --force >/dev/null 2>&1 || true
+          gh issue create --title "$title" --label content --body "$(printf '%s\n\n%s\n\n%s' \
+            'playriftbound.com published article(s) that `content/` does not reference yet:' \
+            "$BODY" \
+            'Update `content/bans.yaml` (new announcement entry) or run `npm run parse-errata` after adding the article URL to `ERRATA_ARTICLES` in `scripts/parse-errata.ts`. See README → Editing content.')"

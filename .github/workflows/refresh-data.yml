@@ -1,0 +1,47 @@
+name: Refresh data
+on:
+  schedule:
+    - cron: '17 4 * * *' # nightly, 04:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['content/**'] # an edited ban/errata/promo file rebuilds the data
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Fails (and commits nothing) if any ban/errata name stops resolving, ids collide, …
+      - run: npm run build-data
+      - run: npm test
+      - name: Commit if changed
+        run: |
+          git add public/data data dist/seed
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "riftbound-api bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "chore(data): refresh catalogue"
+          git push
+      # A push made with GITHUB_TOKEN does not trigger other workflows, so deploy here.
+      - name: Deploy
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
+        run: npx wrangler deploy
