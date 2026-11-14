@@ -1,0 +1,15 @@
+name = "riftbound-api"
+main = "src/worker.ts"
+compatibility_date = "2026-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+# public/ holds the generated catalogue (public/data/*.json) and promo images
+# (public/images/**). Requests that match a file there are served straight from
+# the asset store; everything else (the API routes) runs the Worker.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[vars]
+# Used only to build absolute image URLs when the request origin is unknown.
+PUBLIC_BASE_URL = "https://riftbound-api.kalimbapro.workers.dev"

@@ -1,0 +1,33 @@
+{
+  "name": "riftbound-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-hosted Riftbound TCG card API (RiftCodex-compatible) with bans, errata, regional legality, Radiance and promo cards.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build-data": "tsx scripts/build-data.ts",
+    "parse-errata": "tsx scripts/parse-errata.ts",
+    "check-sources": "tsx scripts/check-sources.ts",
+    "dev": "wrangler dev",
+    "start": "tsx src/node.ts",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.8",
+    "hono": "^4.13.18",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261114.1",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.162.0"
+  }
+}
