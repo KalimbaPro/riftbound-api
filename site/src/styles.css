@@ -109,3 +109,8 @@ footer p { margin: 0; max-width: 40rem; }
   .hero { padding-block: 3rem 2rem; }
   .top nav { gap: .9rem; }
 }
+
+/* Home page questions */
+.faq h3 { margin-top: 1.25rem; }
+.faq h3:first-child { margin-top: 0; }
+.faq p { margin: .3rem 0 0; color: var(--muted); }
