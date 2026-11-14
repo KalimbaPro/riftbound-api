@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T14:15:20+00:00",
+  "updated_at": "2026-11-14T20:36:36+00:00",
   "regions": {
     "global": [
       {
@@ -15,7 +15,7 @@
         "riftbound_id": "ogn-023-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "Discard 1, [E]: Choose a friendly unit. The next time it would die this turn, you may pay [C] to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)",
+        "errata": "Discard 1, :rb_exhaust:: Choose a friendly unit. The next time it would die this turn, you may pay :rb_rune_fury: to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -50,7 +50,7 @@
         "riftbound_id": "ogn-032-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[E]: The next spell you play this turn deals 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)",
+        "errata": ":rb_exhaust:: The next spell you play this turn deals 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -58,7 +58,7 @@
         "riftbound_id": "ogn-044-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "You may pay [C] as an additional cost to play me.\nWhen you play me, if you paid the additional cost, draw 1.",
+        "errata": "You may pay :rb_rune_calm: as an additional cost to play me.\nWhen you play me, if you paid the additional cost, draw 1.",
         "errata_date": "2025-10-28"
       },
       {
@@ -66,7 +66,7 @@
         "riftbound_id": "ogn-062-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "Look at the top 5 cards of your Main Deck. You may banish a unit from among them, then play it, reducing its cost by [5]. Recycle the remaining cards.",
+        "errata": "Look at the top 5 cards of your Main Deck. You may banish a unit from among them, then play it, reducing its cost by :rb_energy_5:. Recycle the remaining cards.",
         "errata_date": "2026-01-14"
       },
       {
@@ -85,7 +85,7 @@
           "standard",
           "2v2"
         ],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nIf a friendly unit would die, kill this instead. Heal that unit, exhaust it, and recall it. (Send it to base. This isn't a move.)",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nIf a friendly unit would die, kill this instead. Heal that unit, exhaust it, and recall it. (Send it to base. This isn't a move.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -101,7 +101,7 @@
         "riftbound_id": "ogn-107-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "When I attack, you may pay [C] to play a card with [Hidden] from your hand, ignoring its cost. If it’s a unit, play it here.",
+        "errata": "When I attack, you may pay :rb_rune_mind: to play a card with [Hidden] from your hand, ignoring its cost. If it’s a unit, play it here.",
         "errata_date": "2025-10-28"
       },
       {
@@ -136,7 +136,7 @@
         "riftbound_id": "ogn-121-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -144,7 +144,7 @@
         "riftbound_id": "ogn-121a-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -152,7 +152,7 @@
         "riftbound_id": "ogn-131-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "When I attack, give me +2 [M] this turn if there is a ready enemy unit here.",
+        "errata": "When I attack, give me +2 :rb_might: this turn if there is a ready enemy unit here.",
         "errata_date": "2025-10-28"
       },
       {
@@ -160,7 +160,7 @@
         "riftbound_id": "ogn-141-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you play me, buff up to two other friendly units. (Each one that doesn't have a buff gets a +1 [M] buff.)",
+        "errata": "When you play me, buff up to two other friendly units. (Each one that doesn't have a buff gets a +1 :rb_might: buff.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -201,7 +201,7 @@
         "riftbound_id": "ogn-181-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[E]: Return another friendly gear, unit, or facedown card to its owner's hand.",
+        "errata": ":rb_exhaust:: Return another friendly gear, unit, or facedown card to its owner's hand.",
         "errata_date": "2025-10-28"
       },
       {
@@ -231,7 +231,7 @@
         "riftbound_id": "ogn-184-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[1], [E]: Move a friendly unit at a battlefield to its base.",
+        "errata": ":rb_energy_1:, :rb_exhaust:: Move a friendly unit at a battlefield to its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -242,7 +242,7 @@
           "standard",
           "2v2"
         ],
-        "errata": "[Ganking] (I can move from battlefield to battlefield.)\nAs you look at or reveal me from the top of your deck, you may banish me. If you do, you may play me for [A].",
+        "errata": "[Ganking] (I can move from battlefield to battlefield.)\nAs you look at or reveal me from the top of your deck, you may banish me. If you do, you may play me for :rb_rune_rainbow:.",
         "errata_date": "2025-10-28"
       },
       {
@@ -261,7 +261,7 @@
         "riftbound_id": "ogn-199-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen you play me, you may choose a unit you control at another location. Move me to its location and it to my original location.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen you play me, you may choose a unit you control at another location. Move me to its location and it to my original location.",
         "errata_date": "2025-10-28"
       },
       {
@@ -277,7 +277,7 @@
         "riftbound_id": "ogn-235-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [M] buff. Runes aren't cards.)",
+        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff. Runes aren't cards.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -288,7 +288,7 @@
           "standard",
           "2v2"
         ],
-        "errata": "[1][C], [E]: Kill a friendly unit. Look at the top 5 cards of your Main Deck. You may banish a unit from among them that has Might up to 1 more than the killed unit and play it, ignoring its cost. Then recycle the rest.",
+        "errata": ":rb_energy_1::rb_rune_order:, :rb_exhaust:: Kill a friendly unit. Look at the top 5 cards of your Main Deck. You may banish a unit from among them that has Might up to 1 more than the killed unit and play it, ignoring its cost. Then recycle the rest.",
         "errata_date": "2025-10-28"
       },
       {
@@ -312,7 +312,7 @@
         "riftbound_id": "ogn-259-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -320,7 +320,7 @@
         "riftbound_id": "ogn-269-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -407,7 +407,7 @@
         "riftbound_id": "ogn-305-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -415,7 +415,7 @@
         "riftbound_id": "ogn-305*-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -423,7 +423,7 @@
         "riftbound_id": "ogn-310-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -431,7 +431,7 @@
         "riftbound_id": "ogn-310*-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -520,7 +520,7 @@
         "riftbound_id": "opp-116-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -566,7 +566,7 @@
         "riftbound_id": "opp-259-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -574,7 +574,7 @@
         "riftbound_id": "opp-259-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -582,7 +582,7 @@
         "riftbound_id": "opp-269-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -590,7 +590,7 @@
         "riftbound_id": "opp-269-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -609,7 +609,7 @@
         "riftbound_id": "rad-010-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "Ready a unit.\nWhen you play a card with Energy cost [7] or more, you may play this from your trash for [1][C][C]. Then banish this.",
+        "errata": "Ready a unit.\nWhen you play a card with Energy cost :rb_energy_7: or more, you may play this from your trash for :rb_energy_1::rb_rune_fury::rb_rune_fury:. Then banish this.",
         "errata_date": "2026-10-09"
       },
       {
@@ -639,7 +639,7 @@
         "riftbound_id": "rad-081-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen you play me, give a friendly unit +3 [M] this turn, then recycle me if I was played from face down.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen you play me, give a friendly unit +3 :rb_might: this turn, then recycle me if I was played from face down.",
         "errata_date": "2026-10-09"
       },
       {
@@ -647,7 +647,7 @@
         "riftbound_id": "rad-154-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nThe next unit you play this turn, even from face down, can be played to any battlefield. When you play it, [Buff] it. (Give it a +1 [M] buff if it doesn't have one.)",
+        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nThe next unit you play this turn, even from face down, can be played to any battlefield. When you play it, [Buff] it. (Give it a +1 :rb_might: buff if it doesn't have one.)",
         "errata_date": "2026-10-09"
       },
       {
@@ -663,7 +663,7 @@
         "riftbound_id": "rad-181-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -671,7 +671,7 @@
         "riftbound_id": "sfd-003-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Action] (Play on your turn or in showdowns.)\n[Repeat] [1] (You may pay the additional cost to repeat this spell's effect.)\nGive a unit [Assault 2] this turn. (+2 [M] while it's an attacker.)",
+        "errata": "[Action] (Play on your turn or in showdowns.)\n[Repeat] :rb_energy_1: (You may pay the additional cost to repeat this spell's effect.)\nGive a unit [Assault 2] this turn. (+2 :rb_might: while it's an attacker.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -682,7 +682,7 @@
           "standard",
           "2v2"
         ],
-        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay [C] to give me +2 [M] this turn.",
+        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay :rb_rune_fury: to give me +2 :rb_might: this turn.",
         "errata_date": "2026-07-23"
       },
       {
@@ -693,7 +693,7 @@
           "standard",
           "2v2"
         ],
-        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay [C] to give me +2 [M] this turn.",
+        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay :rb_rune_fury: to give me +2 :rb_might: this turn.",
         "errata_date": "2026-07-23"
       },
       {
@@ -701,7 +701,7 @@
         "riftbound_id": "sfd-024-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Tank] (I must be assigned combat damage first.)\nWhen I attack, you may play an Equipment with Energy cost no more than [2], ignoring its cost. If you do, then do this: Attach it to me.",
+        "errata": "[Tank] (I must be assigned combat damage first.)\nWhen I attack, you may play an Equipment with Energy cost no more than :rb_energy_2:, ignoring its cost. If you do, then do this: Attach it to me.",
         "errata_date": "2026-01-14"
       },
       {
@@ -728,7 +728,7 @@
         "riftbound_id": "sfd-054-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -736,7 +736,7 @@
         "riftbound_id": "sfd-054a-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -744,7 +744,7 @@
         "riftbound_id": "sfd-060-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhile I'm at a battlefield, opponents can't gain points.",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nWhile I'm at a battlefield, opponents can't gain points.",
         "errata_date": "2026-01-14"
       },
       {
@@ -752,7 +752,7 @@
         "riftbound_id": "sfd-112-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen I move to a battlefield, give another friendly unit my keywords and +[M] equal to my Might this turn.",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nWhen I move to a battlefield, give another friendly unit my keywords and +:rb_might: equal to my Might this turn.",
         "errata_date": "2026-01-14"
       },
       {
@@ -760,7 +760,7 @@
         "riftbound_id": "sfd-116-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -779,7 +779,7 @@
         "riftbound_id": "sfd-139-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen you play this from face down, attach it to a unit you control (here).\n[Equip] [C] ([C]: Attach this to a unit you control.)",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen you play this from face down, attach it to a unit you control (here).\n[Equip] :rb_rune_chaos: (:rb_rune_chaos:: Attach this to a unit you control.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -787,7 +787,7 @@
         "riftbound_id": "sfd-140-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you play me, you may play a spell from your trash with Energy cost no more than [3], ignoring its Energy cost. Then recycle it. (You must still pay its Power cost.)",
+        "errata": "When you play me, you may play a spell from your trash with Energy cost no more than :rb_energy_3:, ignoring its Energy cost. Then recycle it. (You must still pay its Power cost.)",
         "errata_date": "2026-07-23"
       },
       {
@@ -795,7 +795,7 @@
         "riftbound_id": "sfd-154-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nPlay a 2 [M] Sand Soldier unit token. Then do this: You may pay [C] to ready it.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nPlay a 2 :rb_might: Sand Soldier unit token. Then do this: You may pay :rb_rune_order: to ready it.",
         "errata_date": "2026-04-03"
       },
       {
@@ -803,7 +803,7 @@
         "riftbound_id": "sfd-163-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nKill a friendly unit. If you do, give +[M] equal to its Might to another friendly unit this turn.\nDraw 1.",
+        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nKill a friendly unit. If you do, give +:rb_might: equal to its Might to another friendly unit this turn.\nDraw 1.",
         "errata_date": "2026-01-14"
       },
       {
@@ -843,7 +843,7 @@
         "riftbound_id": "sfd-188-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "Reveal the top 2 cards of your Main Deck. You may banish one, then play it, reducing its cost by [2]. Draw any you didn't banish.",
+        "errata": "Reveal the top 2 cards of your Main Deck. You may banish one, then play it, reducing its cost by :rb_energy_2:. Draw any you didn't banish.",
         "errata_date": "2026-01-14"
       },
       {
@@ -851,7 +851,7 @@
         "riftbound_id": "sfd-198-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "Play a 2 [M] Sand Soldier unit token for each Equipment you control. Then do this: Ready up to two of them.",
+        "errata": "Play a 2 :rb_might: Sand Soldier unit token for each Equipment you control. Then do this: Ready up to two of them.",
         "errata_date": "2026-01-14"
       },
       {
@@ -862,7 +862,7 @@
           "standard",
           "2v2"
         ],
-        "errata": "When you conquer here, you may pay [1] and return a unit you control here to its owner's hand to play a 2 [M] Sand Soldier unit token here.",
+        "errata": "When you conquer here, you may pay :rb_energy_1: and return a unit you control here to its owner's hand to play a 2 :rb_might: Sand Soldier unit token here.",
         "errata_date": "2026-07-23"
       },
       {
@@ -870,7 +870,7 @@
         "riftbound_id": "sfd-230-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -878,7 +878,7 @@
         "riftbound_id": "sfd-230*-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -886,7 +886,7 @@
         "riftbound_id": "sfd-233-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -894,7 +894,7 @@
         "riftbound_id": "sfd-233*-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -902,7 +902,7 @@
         "riftbound_id": "sfd-237-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [M] buff. Runes aren't cards.)",
+        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff. Runes aren't cards.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -910,7 +910,7 @@
         "riftbound_id": "sfd-237*-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [M] buff. Runes aren't cards.)",
+        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff. Runes aren't cards.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -926,7 +926,7 @@
         "riftbound_id": "unl-079-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "When a showdown begins here, you may pay [1] to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
+        "errata": "When a showdown begins here, you may pay :rb_energy_1: to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
         "errata_date": "2026-07-23"
       },
       {
@@ -934,7 +934,7 @@
         "riftbound_id": "unl-079a-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "When a showdown begins here, you may pay [1] to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
+        "errata": "When a showdown begins here, you may pay :rb_energy_1: to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
         "errata_date": "2026-07-23"
       },
       {
@@ -942,7 +942,7 @@
         "riftbound_id": "unl-081-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\n[Temporary] (Kill me at the start of my controller's Beginning Phase, before scoring.)\nWhen you play me, play two Reflection unit tokens here. Then do this: They become copies of me.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\n[Temporary] (Kill me at the start of my controller's Beginning Phase, before scoring.)\nWhen you play me, play two Reflection unit tokens here. Then do this: They become copies of me.",
         "errata_date": "2026-04-03"
       },
       {
@@ -966,7 +966,7 @@
         "riftbound_id": "unl-139-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nChoose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. If they do, then do this: [Stun] it. (It doesn't deal combat damage this turn.)",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nChoose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. If they do, then do this: [Stun] it. (It doesn't deal combat damage this turn.)",
         "errata_date": "2026-04-03"
       },
       {
@@ -982,7 +982,7 @@
         "riftbound_id": "unl-186-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "Kill a unit at a battlefield. Then, if it had 3 [M] or less, do this: You may play this from your trash for [A].",
+        "errata": "Kill a unit at a battlefield. Then, if it had 3 :rb_might: or less, do this: You may play this from your trash for :rb_rune_rainbow:.",
         "errata_date": "2026-04-03"
       },
       {
@@ -1033,7 +1033,7 @@
         "riftbound_id": "ven-034-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\n[Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a battlefield you control and a unit you control at a different location. Move that unit to that battlefield and give it +2 [S] this turn.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\n[Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a battlefield you control and a unit you control at a different location. Move that unit to that battlefield and give it +2 :rb_might: this turn.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1041,7 +1041,7 @@
         "riftbound_id": "ven-044-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you play your first card each turn, if I'm at a battlefield, the next card you play this turn costs [2][A][A] less.",
+        "errata": "When you play your first card each turn, if I'm at a battlefield, the next card you play this turn costs :rb_energy_2::rb_rune_rainbow::rb_rune_rainbow: less.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1049,7 +1049,7 @@
         "riftbound_id": "ven-086-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1057,7 +1057,7 @@
         "riftbound_id": "ven-086-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1081,7 +1081,7 @@
         "riftbound_id": "ven-181-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1089,7 +1089,7 @@
         "riftbound_id": "ven-181-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1123,7 +1123,7 @@
         "riftbound_id": "ogn-023-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "Discard 1, [E]: Choose a friendly unit. The next time it would die this turn, you may pay [C] to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)",
+        "errata": "Discard 1, :rb_exhaust:: Choose a friendly unit. The next time it would die this turn, you may pay :rb_rune_fury: to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -1147,7 +1147,7 @@
         "riftbound_id": "ogn-032-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[E]: The next spell you play this turn deals 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)",
+        "errata": ":rb_exhaust:: The next spell you play this turn deals 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -1155,7 +1155,7 @@
         "riftbound_id": "ogn-044-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "You may pay [C] as an additional cost to play me.\nWhen you play me, if you paid the additional cost, draw 1.",
+        "errata": "You may pay :rb_rune_calm: as an additional cost to play me.\nWhen you play me, if you paid the additional cost, draw 1.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1163,7 +1163,7 @@
         "riftbound_id": "ogn-062-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "Look at the top 5 cards of your Main Deck. You may banish a unit from among them, then play it, reducing its cost by [5]. Recycle the remaining cards.",
+        "errata": "Look at the top 5 cards of your Main Deck. You may banish a unit from among them, then play it, reducing its cost by :rb_energy_5:. Recycle the remaining cards.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1179,7 +1179,7 @@
         "riftbound_id": "ogn-077-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nIf a friendly unit would die, kill this instead. Heal that unit, exhaust it, and recall it. (Send it to base. This isn't a move.)",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nIf a friendly unit would die, kill this instead. Heal that unit, exhaust it, and recall it. (Send it to base. This isn't a move.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -1195,7 +1195,7 @@
         "riftbound_id": "ogn-107-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "When I attack, you may pay [C] to play a card with [Hidden] from your hand, ignoring its cost. If it’s a unit, play it here.",
+        "errata": "When I attack, you may pay :rb_rune_mind: to play a card with [Hidden] from your hand, ignoring its cost. If it’s a unit, play it here.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1219,7 +1219,7 @@
         "riftbound_id": "ogn-121-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1227,7 +1227,7 @@
         "riftbound_id": "ogn-121a-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1235,7 +1235,7 @@
         "riftbound_id": "ogn-131-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "When I attack, give me +2 [M] this turn if there is a ready enemy unit here.",
+        "errata": "When I attack, give me +2 :rb_might: this turn if there is a ready enemy unit here.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1243,7 +1243,7 @@
         "riftbound_id": "ogn-141-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you play me, buff up to two other friendly units. (Each one that doesn't have a buff gets a +1 [M] buff.)",
+        "errata": "When you play me, buff up to two other friendly units. (Each one that doesn't have a buff gets a +1 :rb_might: buff.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -1259,7 +1259,7 @@
         "riftbound_id": "ogn-181-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[E]: Return another friendly gear, unit, or facedown card to its owner's hand.",
+        "errata": ":rb_exhaust:: Return another friendly gear, unit, or facedown card to its owner's hand.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1267,7 +1267,7 @@
         "riftbound_id": "ogn-184-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[1], [E]: Move a friendly unit at a battlefield to its base.",
+        "errata": ":rb_energy_1:, :rb_exhaust:: Move a friendly unit at a battlefield to its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1275,7 +1275,7 @@
         "riftbound_id": "ogn-194-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Ganking] (I can move from battlefield to battlefield.)\nAs you look at or reveal me from the top of your deck, you may banish me. If you do, you may play me for [A].",
+        "errata": "[Ganking] (I can move from battlefield to battlefield.)\nAs you look at or reveal me from the top of your deck, you may banish me. If you do, you may play me for :rb_rune_rainbow:.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1283,7 +1283,7 @@
         "riftbound_id": "ogn-199-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen you play me, you may choose a unit you control at another location. Move me to its location and it to my original location.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen you play me, you may choose a unit you control at another location. Move me to its location and it to my original location.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1299,7 +1299,7 @@
         "riftbound_id": "ogn-235-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [M] buff. Runes aren't cards.)",
+        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff. Runes aren't cards.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -1307,7 +1307,7 @@
         "riftbound_id": "ogn-242-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[1][C], [E]: Kill a friendly unit. Look at the top 5 cards of your Main Deck. You may banish a unit from among them that has Might up to 1 more than the killed unit and play it, ignoring its cost. Then recycle the rest.",
+        "errata": ":rb_energy_1::rb_rune_order:, :rb_exhaust:: Kill a friendly unit. Look at the top 5 cards of your Main Deck. You may banish a unit from among them that has Might up to 1 more than the killed unit and play it, ignoring its cost. Then recycle the rest.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1331,7 +1331,7 @@
         "riftbound_id": "ogn-259-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1339,7 +1339,7 @@
         "riftbound_id": "ogn-269-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1379,7 +1379,7 @@
         "riftbound_id": "ogn-305-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1387,7 +1387,7 @@
         "riftbound_id": "ogn-305*-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1395,7 +1395,7 @@
         "riftbound_id": "ogn-310-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1403,7 +1403,7 @@
         "riftbound_id": "ogn-310*-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1451,7 +1451,7 @@
         "riftbound_id": "opp-116-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1475,7 +1475,7 @@
         "riftbound_id": "opp-259-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1483,7 +1483,7 @@
         "riftbound_id": "opp-259-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1491,7 +1491,7 @@
         "riftbound_id": "opp-269-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1499,7 +1499,7 @@
         "riftbound_id": "opp-269-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1507,7 +1507,7 @@
         "riftbound_id": "rad-010-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "Ready a unit.\nWhen you play a card with Energy cost [7] or more, you may play this from your trash for [1][C][C]. Then banish this.",
+        "errata": "Ready a unit.\nWhen you play a card with Energy cost :rb_energy_7: or more, you may play this from your trash for :rb_energy_1::rb_rune_fury::rb_rune_fury:. Then banish this.",
         "errata_date": "2026-10-09"
       },
       {
@@ -1515,7 +1515,7 @@
         "riftbound_id": "rad-081-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen you play me, give a friendly unit +3 [M] this turn, then recycle me if I was played from face down.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen you play me, give a friendly unit +3 :rb_might: this turn, then recycle me if I was played from face down.",
         "errata_date": "2026-10-09"
       },
       {
@@ -1523,7 +1523,7 @@
         "riftbound_id": "rad-154-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nThe next unit you play this turn, even from face down, can be played to any battlefield. When you play it, [Buff] it. (Give it a +1 [M] buff if it doesn't have one.)",
+        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nThe next unit you play this turn, even from face down, can be played to any battlefield. When you play it, [Buff] it. (Give it a +1 :rb_might: buff if it doesn't have one.)",
         "errata_date": "2026-10-09"
       },
       {
@@ -1539,7 +1539,7 @@
         "riftbound_id": "rad-181-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1547,7 +1547,7 @@
         "riftbound_id": "sfd-003-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Action] (Play on your turn or in showdowns.)\n[Repeat] [1] (You may pay the additional cost to repeat this spell's effect.)\nGive a unit [Assault 2] this turn. (+2 [M] while it's an attacker.)",
+        "errata": "[Action] (Play on your turn or in showdowns.)\n[Repeat] :rb_energy_1: (You may pay the additional cost to repeat this spell's effect.)\nGive a unit [Assault 2] this turn. (+2 :rb_might: while it's an attacker.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -1555,7 +1555,7 @@
         "riftbound_id": "sfd-020-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay [C] to give me +2 [M] this turn.",
+        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay :rb_rune_fury: to give me +2 :rb_might: this turn.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1563,7 +1563,7 @@
         "riftbound_id": "sfd-020a-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay [C] to give me +2 [M] this turn.",
+        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay :rb_rune_fury: to give me +2 :rb_might: this turn.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1571,7 +1571,7 @@
         "riftbound_id": "sfd-024-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Tank] (I must be assigned combat damage first.)\nWhen I attack, you may play an Equipment with Energy cost no more than [2], ignoring its cost. If you do, then do this: Attach it to me.",
+        "errata": "[Tank] (I must be assigned combat damage first.)\nWhen I attack, you may play an Equipment with Energy cost no more than :rb_energy_2:, ignoring its cost. If you do, then do this: Attach it to me.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1587,7 +1587,7 @@
         "riftbound_id": "sfd-054-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -1595,7 +1595,7 @@
         "riftbound_id": "sfd-054a-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -1603,7 +1603,7 @@
         "riftbound_id": "sfd-060-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhile I'm at a battlefield, opponents can't gain points.",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nWhile I'm at a battlefield, opponents can't gain points.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1611,7 +1611,7 @@
         "riftbound_id": "sfd-112-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen I move to a battlefield, give another friendly unit my keywords and +[M] equal to my Might this turn.",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nWhen I move to a battlefield, give another friendly unit my keywords and +:rb_might: equal to my Might this turn.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1619,7 +1619,7 @@
         "riftbound_id": "sfd-116-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1627,7 +1627,7 @@
         "riftbound_id": "sfd-139-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen you play this from face down, attach it to a unit you control (here).\n[Equip] [C] ([C]: Attach this to a unit you control.)",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen you play this from face down, attach it to a unit you control (here).\n[Equip] :rb_rune_chaos: (:rb_rune_chaos:: Attach this to a unit you control.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -1635,7 +1635,7 @@
         "riftbound_id": "sfd-140-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you play me, you may play a spell from your trash with Energy cost no more than [3], ignoring its Energy cost. Then recycle it. (You must still pay its Power cost.)",
+        "errata": "When you play me, you may play a spell from your trash with Energy cost no more than :rb_energy_3:, ignoring its Energy cost. Then recycle it. (You must still pay its Power cost.)",
         "errata_date": "2026-07-23"
       },
       {
@@ -1643,7 +1643,7 @@
         "riftbound_id": "sfd-154-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nPlay a 2 [M] Sand Soldier unit token. Then do this: You may pay [C] to ready it.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nPlay a 2 :rb_might: Sand Soldier unit token. Then do this: You may pay :rb_rune_order: to ready it.",
         "errata_date": "2026-04-03"
       },
       {
@@ -1651,7 +1651,7 @@
         "riftbound_id": "sfd-163-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nKill a friendly unit. If you do, give +[M] equal to its Might to another friendly unit this turn.\nDraw 1.",
+        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nKill a friendly unit. If you do, give +:rb_might: equal to its Might to another friendly unit this turn.\nDraw 1.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1691,7 +1691,7 @@
         "riftbound_id": "sfd-188-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "Reveal the top 2 cards of your Main Deck. You may banish one, then play it, reducing its cost by [2]. Draw any you didn't banish.",
+        "errata": "Reveal the top 2 cards of your Main Deck. You may banish one, then play it, reducing its cost by :rb_energy_2:. Draw any you didn't banish.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1699,7 +1699,7 @@
         "riftbound_id": "sfd-198-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "Play a 2 [M] Sand Soldier unit token for each Equipment you control. Then do this: Ready up to two of them.",
+        "errata": "Play a 2 :rb_might: Sand Soldier unit token for each Equipment you control. Then do this: Ready up to two of them.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1707,7 +1707,7 @@
         "riftbound_id": "sfd-207-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you conquer here, you may pay [1] and return a unit you control here to its owner's hand to play a 2 [M] Sand Soldier unit token here.",
+        "errata": "When you conquer here, you may pay :rb_energy_1: and return a unit you control here to its owner's hand to play a 2 :rb_might: Sand Soldier unit token here.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1715,7 +1715,7 @@
         "riftbound_id": "sfd-230-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1723,7 +1723,7 @@
         "riftbound_id": "sfd-230*-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1731,7 +1731,7 @@
         "riftbound_id": "sfd-233-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1739,7 +1739,7 @@
         "riftbound_id": "sfd-233*-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -1747,7 +1747,7 @@
         "riftbound_id": "sfd-237-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [M] buff. Runes aren't cards.)",
+        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff. Runes aren't cards.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -1755,7 +1755,7 @@
         "riftbound_id": "sfd-237*-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [M] buff. Runes aren't cards.)",
+        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff. Runes aren't cards.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -1771,7 +1771,7 @@
         "riftbound_id": "unl-079-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "When a showdown begins here, you may pay [1] to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
+        "errata": "When a showdown begins here, you may pay :rb_energy_1: to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
         "errata_date": "2026-07-23"
       },
       {
@@ -1779,7 +1779,7 @@
         "riftbound_id": "unl-079a-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "When a showdown begins here, you may pay [1] to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
+        "errata": "When a showdown begins here, you may pay :rb_energy_1: to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
         "errata_date": "2026-07-23"
       },
       {
@@ -1787,7 +1787,7 @@
         "riftbound_id": "unl-081-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\n[Temporary] (Kill me at the start of my controller's Beginning Phase, before scoring.)\nWhen you play me, play two Reflection unit tokens here. Then do this: They become copies of me.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\n[Temporary] (Kill me at the start of my controller's Beginning Phase, before scoring.)\nWhen you play me, play two Reflection unit tokens here. Then do this: They become copies of me.",
         "errata_date": "2026-04-03"
       },
       {
@@ -1811,7 +1811,7 @@
         "riftbound_id": "unl-139-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nChoose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. If they do, then do this: [Stun] it. (It doesn't deal combat damage this turn.)",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nChoose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. If they do, then do this: [Stun] it. (It doesn't deal combat damage this turn.)",
         "errata_date": "2026-04-03"
       },
       {
@@ -1827,7 +1827,7 @@
         "riftbound_id": "unl-186-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "Kill a unit at a battlefield. Then, if it had 3 [M] or less, do this: You may play this from your trash for [A].",
+        "errata": "Kill a unit at a battlefield. Then, if it had 3 :rb_might: or less, do this: You may play this from your trash for :rb_rune_rainbow:.",
         "errata_date": "2026-04-03"
       },
       {
@@ -1867,7 +1867,7 @@
         "riftbound_id": "ven-034-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\n[Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a battlefield you control and a unit you control at a different location. Move that unit to that battlefield and give it +2 [S] this turn.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\n[Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a battlefield you control and a unit you control at a different location. Move that unit to that battlefield and give it +2 :rb_might: this turn.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1875,7 +1875,7 @@
         "riftbound_id": "ven-044-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you play your first card each turn, if I'm at a battlefield, the next card you play this turn costs [2][A][A] less.",
+        "errata": "When you play your first card each turn, if I'm at a battlefield, the next card you play this turn costs :rb_energy_2::rb_rune_rainbow::rb_rune_rainbow: less.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1883,7 +1883,7 @@
         "riftbound_id": "ven-086-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1891,7 +1891,7 @@
         "riftbound_id": "ven-086-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1915,7 +1915,7 @@
         "riftbound_id": "ven-181-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1923,7 +1923,7 @@
         "riftbound_id": "ven-181-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -1957,7 +1957,7 @@
         "riftbound_id": "ogn-023-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "Discard 1, [E]: Choose a friendly unit. The next time it would die this turn, you may pay [C] to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)",
+        "errata": "Discard 1, :rb_exhaust:: Choose a friendly unit. The next time it would die this turn, you may pay :rb_rune_fury: to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -1981,7 +1981,7 @@
         "riftbound_id": "ogn-032-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[E]: The next spell you play this turn deals 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)",
+        "errata": ":rb_exhaust:: The next spell you play this turn deals 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -1989,7 +1989,7 @@
         "riftbound_id": "ogn-044-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "You may pay [C] as an additional cost to play me.\nWhen you play me, if you paid the additional cost, draw 1.",
+        "errata": "You may pay :rb_rune_calm: as an additional cost to play me.\nWhen you play me, if you paid the additional cost, draw 1.",
         "errata_date": "2025-10-28"
       },
       {
@@ -1997,7 +1997,7 @@
         "riftbound_id": "ogn-062-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "Look at the top 5 cards of your Main Deck. You may banish a unit from among them, then play it, reducing its cost by [5]. Recycle the remaining cards.",
+        "errata": "Look at the top 5 cards of your Main Deck. You may banish a unit from among them, then play it, reducing its cost by :rb_energy_5:. Recycle the remaining cards.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2013,7 +2013,7 @@
         "riftbound_id": "ogn-077-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nIf a friendly unit would die, kill this instead. Heal that unit, exhaust it, and recall it. (Send it to base. This isn't a move.)",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nIf a friendly unit would die, kill this instead. Heal that unit, exhaust it, and recall it. (Send it to base. This isn't a move.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -2029,7 +2029,7 @@
         "riftbound_id": "ogn-107-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "When I attack, you may pay [C] to play a card with [Hidden] from your hand, ignoring its cost. If it’s a unit, play it here.",
+        "errata": "When I attack, you may pay :rb_rune_mind: to play a card with [Hidden] from your hand, ignoring its cost. If it’s a unit, play it here.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2053,7 +2053,7 @@
         "riftbound_id": "ogn-121-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2061,7 +2061,7 @@
         "riftbound_id": "ogn-121a-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2069,7 +2069,7 @@
         "riftbound_id": "ogn-131-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "When I attack, give me +2 [M] this turn if there is a ready enemy unit here.",
+        "errata": "When I attack, give me +2 :rb_might: this turn if there is a ready enemy unit here.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2077,7 +2077,7 @@
         "riftbound_id": "ogn-141-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you play me, buff up to two other friendly units. (Each one that doesn't have a buff gets a +1 [M] buff.)",
+        "errata": "When you play me, buff up to two other friendly units. (Each one that doesn't have a buff gets a +1 :rb_might: buff.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -2093,7 +2093,7 @@
         "riftbound_id": "ogn-181-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[E]: Return another friendly gear, unit, or facedown card to its owner's hand.",
+        "errata": ":rb_exhaust:: Return another friendly gear, unit, or facedown card to its owner's hand.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2101,7 +2101,7 @@
         "riftbound_id": "ogn-184-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[1], [E]: Move a friendly unit at a battlefield to its base.",
+        "errata": ":rb_energy_1:, :rb_exhaust:: Move a friendly unit at a battlefield to its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2109,7 +2109,7 @@
         "riftbound_id": "ogn-194-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Ganking] (I can move from battlefield to battlefield.)\nAs you look at or reveal me from the top of your deck, you may banish me. If you do, you may play me for [A].",
+        "errata": "[Ganking] (I can move from battlefield to battlefield.)\nAs you look at or reveal me from the top of your deck, you may banish me. If you do, you may play me for :rb_rune_rainbow:.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2117,7 +2117,7 @@
         "riftbound_id": "ogn-199-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen you play me, you may choose a unit you control at another location. Move me to its location and it to my original location.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen you play me, you may choose a unit you control at another location. Move me to its location and it to my original location.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2133,7 +2133,7 @@
         "riftbound_id": "ogn-235-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [M] buff. Runes aren't cards.)",
+        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff. Runes aren't cards.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -2141,7 +2141,7 @@
         "riftbound_id": "ogn-242-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[1][C], [E]: Kill a friendly unit. Look at the top 5 cards of your Main Deck. You may banish a unit from among them that has Might up to 1 more than the killed unit and play it, ignoring its cost. Then recycle the rest.",
+        "errata": ":rb_energy_1::rb_rune_order:, :rb_exhaust:: Kill a friendly unit. Look at the top 5 cards of your Main Deck. You may banish a unit from among them that has Might up to 1 more than the killed unit and play it, ignoring its cost. Then recycle the rest.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2165,7 +2165,7 @@
         "riftbound_id": "ogn-259-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2173,7 +2173,7 @@
         "riftbound_id": "ogn-269-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2213,7 +2213,7 @@
         "riftbound_id": "ogn-305-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2221,7 +2221,7 @@
         "riftbound_id": "ogn-305*-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2229,7 +2229,7 @@
         "riftbound_id": "ogn-310-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2237,7 +2237,7 @@
         "riftbound_id": "ogn-310*-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2285,7 +2285,7 @@
         "riftbound_id": "opp-116-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2309,7 +2309,7 @@
         "riftbound_id": "opp-259-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2317,7 +2317,7 @@
         "riftbound_id": "opp-259-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "[2], [E]: Move a friendly unit to or from its base.",
+        "errata": ":rb_energy_2:, :rb_exhaust:: Move a friendly unit to or from its base.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2325,7 +2325,7 @@
         "riftbound_id": "opp-269-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2333,7 +2333,7 @@
         "riftbound_id": "opp-269-298",
         "banned": false,
         "banned_formats": [],
-        "errata": "If a buffed unit you control would die, you may pay [C], exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
+        "errata": "If a buffed unit you control would die, you may pay :rb_rune_body:, exhaust me, and spend its buff to heal it, exhaust it, and recall it instead. (Send it to base. This isn't a move.)\nWhen you conquer, ready me.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2341,7 +2341,7 @@
         "riftbound_id": "rad-010-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "Ready a unit.\nWhen you play a card with Energy cost [7] or more, you may play this from your trash for [1][C][C]. Then banish this.",
+        "errata": "Ready a unit.\nWhen you play a card with Energy cost :rb_energy_7: or more, you may play this from your trash for :rb_energy_1::rb_rune_fury::rb_rune_fury:. Then banish this.",
         "errata_date": "2026-10-09"
       },
       {
@@ -2349,7 +2349,7 @@
         "riftbound_id": "rad-081-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen you play me, give a friendly unit +3 [M] this turn, then recycle me if I was played from face down.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen you play me, give a friendly unit +3 :rb_might: this turn, then recycle me if I was played from face down.",
         "errata_date": "2026-10-09"
       },
       {
@@ -2357,7 +2357,7 @@
         "riftbound_id": "rad-154-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nThe next unit you play this turn, even from face down, can be played to any battlefield. When you play it, [Buff] it. (Give it a +1 [M] buff if it doesn't have one.)",
+        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nThe next unit you play this turn, even from face down, can be played to any battlefield. When you play it, [Buff] it. (Give it a +1 :rb_might: buff if it doesn't have one.)",
         "errata_date": "2026-10-09"
       },
       {
@@ -2373,7 +2373,7 @@
         "riftbound_id": "rad-181-167",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2381,7 +2381,7 @@
         "riftbound_id": "sfd-003-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Action] (Play on your turn or in showdowns.)\n[Repeat] [1] (You may pay the additional cost to repeat this spell's effect.)\nGive a unit [Assault 2] this turn. (+2 [M] while it's an attacker.)",
+        "errata": "[Action] (Play on your turn or in showdowns.)\n[Repeat] :rb_energy_1: (You may pay the additional cost to repeat this spell's effect.)\nGive a unit [Assault 2] this turn. (+2 :rb_might: while it's an attacker.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -2389,7 +2389,7 @@
         "riftbound_id": "sfd-020-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay [C] to give me +2 [M] this turn.",
+        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay :rb_rune_fury: to give me +2 :rb_might: this turn.",
         "errata_date": "2026-07-23"
       },
       {
@@ -2397,7 +2397,7 @@
         "riftbound_id": "sfd-020a-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay [C] to give me +2 [M] this turn.",
+        "errata": "When I win a combat, play a Gold gear token exhausted.\nWhen I attack or defend, you may pay :rb_rune_fury: to give me +2 :rb_might: this turn.",
         "errata_date": "2026-07-23"
       },
       {
@@ -2405,7 +2405,7 @@
         "riftbound_id": "sfd-024-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Tank] (I must be assigned combat damage first.)\nWhen I attack, you may play an Equipment with Energy cost no more than [2], ignoring its cost. If you do, then do this: Attach it to me.",
+        "errata": "[Tank] (I must be assigned combat damage first.)\nWhen I attack, you may play an Equipment with Energy cost no more than :rb_energy_2:, ignoring its cost. If you do, then do this: Attach it to me.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2421,7 +2421,7 @@
         "riftbound_id": "sfd-054-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -2429,7 +2429,7 @@
         "riftbound_id": "sfd-054a-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nYour Equipment everywhere have [Quick-Draw]. (Each gains [Reaction]. When you play it, attach it to a unit you control.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -2437,7 +2437,7 @@
         "riftbound_id": "sfd-060-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhile I'm at a battlefield, opponents can't gain points.",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nWhile I'm at a battlefield, opponents can't gain points.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2445,7 +2445,7 @@
         "riftbound_id": "sfd-112-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen I move to a battlefield, give another friendly unit my keywords and +[M] equal to my Might this turn.",
+        "errata": "[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)\nWhen I move to a battlefield, give another friendly unit my keywords and +:rb_might: equal to my Might this turn.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2453,7 +2453,7 @@
         "riftbound_id": "sfd-116-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2461,7 +2461,7 @@
         "riftbound_id": "sfd-139-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen you play this from face down, attach it to a unit you control (here).\n[Equip] [C] ([C]: Attach this to a unit you control.)",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen you play this from face down, attach it to a unit you control (here).\n[Equip] :rb_rune_chaos: (:rb_rune_chaos:: Attach this to a unit you control.)",
         "errata_date": "2026-01-14"
       },
       {
@@ -2469,7 +2469,7 @@
         "riftbound_id": "sfd-140-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you play me, you may play a spell from your trash with Energy cost no more than [3], ignoring its Energy cost. Then recycle it. (You must still pay its Power cost.)",
+        "errata": "When you play me, you may play a spell from your trash with Energy cost no more than :rb_energy_3:, ignoring its Energy cost. Then recycle it. (You must still pay its Power cost.)",
         "errata_date": "2026-07-23"
       },
       {
@@ -2477,7 +2477,7 @@
         "riftbound_id": "sfd-154-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nPlay a 2 [M] Sand Soldier unit token. Then do this: You may pay [C] to ready it.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nPlay a 2 :rb_might: Sand Soldier unit token. Then do this: You may pay :rb_rune_order: to ready it.",
         "errata_date": "2026-04-03"
       },
       {
@@ -2485,7 +2485,7 @@
         "riftbound_id": "sfd-163-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nKill a friendly unit. If you do, give +[M] equal to its Might to another friendly unit this turn.\nDraw 1.",
+        "errata": "[Reaction] (Play any time, even before spells and abilities resolve.)\nKill a friendly unit. If you do, give +:rb_might: equal to its Might to another friendly unit this turn.\nDraw 1.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2525,7 +2525,7 @@
         "riftbound_id": "sfd-188-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "Reveal the top 2 cards of your Main Deck. You may banish one, then play it, reducing its cost by [2]. Draw any you didn't banish.",
+        "errata": "Reveal the top 2 cards of your Main Deck. You may banish one, then play it, reducing its cost by :rb_energy_2:. Draw any you didn't banish.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2533,7 +2533,7 @@
         "riftbound_id": "sfd-198-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "Play a 2 [M] Sand Soldier unit token for each Equipment you control. Then do this: Ready up to two of them.",
+        "errata": "Play a 2 :rb_might: Sand Soldier unit token for each Equipment you control. Then do this: Ready up to two of them.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2541,7 +2541,7 @@
         "riftbound_id": "sfd-207-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you conquer here, you may pay [1] and return a unit you control here to its owner's hand to play a 2 [M] Sand Soldier unit token here.",
+        "errata": "When you conquer here, you may pay :rb_energy_1: and return a unit you control here to its owner's hand to play a 2 :rb_might: Sand Soldier unit token here.",
         "errata_date": "2026-07-23"
       },
       {
@@ -2549,7 +2549,7 @@
         "riftbound_id": "sfd-230-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2557,7 +2557,7 @@
         "riftbound_id": "sfd-230*-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nWhen I defend, choose an enemy unit here and reveal the top 5 cards of your Main Deck. Deal 1 to that unit for each card with [Hidden] revealed this way, then recycle the revealed cards.",
         "errata_date": "2025-10-28"
       },
       {
@@ -2565,7 +2565,7 @@
         "riftbound_id": "sfd-233-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2573,7 +2573,7 @@
         "riftbound_id": "sfd-233*-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
+        "errata": "[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)\nWhen I conquer a battlefield that was uncontrolled, deal damage equal to my Might to an enemy unit in a base.",
         "errata_date": "2026-01-14"
       },
       {
@@ -2581,7 +2581,7 @@
         "riftbound_id": "sfd-237-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [M] buff. Runes aren't cards.)",
+        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff. Runes aren't cards.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -2589,7 +2589,7 @@
         "riftbound_id": "sfd-237*-221",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [M] buff. Runes aren't cards.)",
+        "errata": "[Vision] (When you play me, look at the top card of your Main Deck. You may recycle it.)\nWhen you recycle one or more cards to your Main Deck, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff. Runes aren't cards.)",
         "errata_date": "2025-10-28"
       },
       {
@@ -2605,7 +2605,7 @@
         "riftbound_id": "unl-079-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "When a showdown begins here, you may pay [1] to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
+        "errata": "When a showdown begins here, you may pay :rb_energy_1: to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
         "errata_date": "2026-07-23"
       },
       {
@@ -2613,7 +2613,7 @@
         "riftbound_id": "unl-079a-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "When a showdown begins here, you may pay [1] to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
+        "errata": "When a showdown begins here, you may pay :rb_energy_1: to [Predict], then reveal the top card of your Main Deck. If it's a spell, draw it. (To Predict, look at the top card of your Main Deck. You may recycle it.)",
         "errata_date": "2026-07-23"
       },
       {
@@ -2621,7 +2621,7 @@
         "riftbound_id": "unl-081-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\n[Temporary] (Kill me at the start of my controller's Beginning Phase, before scoring.)\nWhen you play me, play two Reflection unit tokens here. Then do this: They become copies of me.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\n[Temporary] (Kill me at the start of my controller's Beginning Phase, before scoring.)\nWhen you play me, play two Reflection unit tokens here. Then do this: They become copies of me.",
         "errata_date": "2026-04-03"
       },
       {
@@ -2645,7 +2645,7 @@
         "riftbound_id": "unl-139-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\nChoose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. If they do, then do this: [Stun] it. (It doesn't deal combat damage this turn.)",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\nChoose a battlefield. An opponent reveals their hand. You may choose a unit from it. They play that unit to that battlefield, ignoring any and all costs. If they do, then do this: [Stun] it. (It doesn't deal combat damage this turn.)",
         "errata_date": "2026-04-03"
       },
       {
@@ -2661,7 +2661,7 @@
         "riftbound_id": "unl-186-219",
         "banned": false,
         "banned_formats": [],
-        "errata": "Kill a unit at a battlefield. Then, if it had 3 [M] or less, do this: You may play this from your trash for [A].",
+        "errata": "Kill a unit at a battlefield. Then, if it had 3 :rb_might: or less, do this: You may play this from your trash for :rb_rune_rainbow:.",
         "errata_date": "2026-04-03"
       },
       {
@@ -2701,7 +2701,7 @@
         "riftbound_id": "ven-034-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Hidden] (Hide now for [A] to react with later for [0].)\n[Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a battlefield you control and a unit you control at a different location. Move that unit to that battlefield and give it +2 [S] this turn.",
+        "errata": "[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)\n[Reaction] (Play any time, even before spells and abilities resolve.)\nChoose a battlefield you control and a unit you control at a different location. Move that unit to that battlefield and give it +2 :rb_might: this turn.",
         "errata_date": "2026-07-23"
       },
       {
@@ -2709,7 +2709,7 @@
         "riftbound_id": "ven-044-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "When you play your first card each turn, if I'm at a battlefield, the next card you play this turn costs [2][A][A] less.",
+        "errata": "When you play your first card each turn, if I'm at a battlefield, the next card you play this turn costs :rb_energy_2::rb_rune_rainbow::rb_rune_rainbow: less.",
         "errata_date": "2026-07-23"
       },
       {
@@ -2717,7 +2717,7 @@
         "riftbound_id": "ven-086-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -2725,7 +2725,7 @@
         "riftbound_id": "ven-086-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -2749,7 +2749,7 @@
         "riftbound_id": "ven-181-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {
@@ -2757,7 +2757,7 @@
         "riftbound_id": "ven-181-166",
         "banned": false,
         "banned_formats": [],
-        "errata": "[Empower] [C][C] ([C][C]: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -[M], or return me to hand, give me +3 [M] this turn instead.",
+        "errata": "[Empower] :rb_rune_body::rb_rune_body: (:rb_rune_body::rb_rune_body:: Empower me. Use only if not Empowered.)\n[Empowered][>] If a spell or ability that chooses me would stun me, give me -:rb_might:, or return me to hand, give me +3 :rb_might: this turn instead.",
         "errata_date": "2026-07-23"
       },
       {

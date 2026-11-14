@@ -96,3 +96,21 @@ describe('errata + applyLegality', () => {
     expect('banned' in out).toBe(false);
   });
 });
+
+import { errataMarkup } from '../src/lib/legality.ts';
+
+describe('errataMarkup', () => {
+  it('turns article symbols into the card-text icon tokens', () => {
+    expect(errataMarkup('[1][C], [E]: Kill a friendly unit.', ['Order'])).toBe(
+      ':rb_energy_1::rb_rune_order:, :rb_exhaust:: Kill a friendly unit.',
+    );
+    expect(errataMarkup('[Hidden] (Hide now for [A] to react with later for [0].)', ['Calm'])).toBe(
+      '[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)',
+    );
+    expect(errataMarkup('give me +2 [M] and +1 [S]', [])).toBe('give me +2 :rb_might: and +1 :rb_might:');
+    expect(errataMarkup('pay [12]', null)).toBe('pay :rb_energy_12:');
+  });
+  it('leaves keywords alone and falls back to the rainbow rune without a domain', () => {
+    expect(errataMarkup('[Accelerate] [C]', undefined)).toBe('[Accelerate] :rb_rune_rainbow:');
+  });
+});

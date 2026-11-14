@@ -71,6 +71,26 @@ export interface LegalityInput {
   updatedAt: string;
 }
 
+/**
+ * Riot's errata articles write symbols as [1] [A] [C] [E] [M]; card text uses the
+ * :rb_…: tokens the apps already draw as icons. Convert so errata renders like the
+ * card text. [C] is "a rune of this card's domain", so it needs the card's domain.
+ */
+export function errataMarkup(text: string, domains: string[] | null | undefined): string {
+  const domain = domains?.[0]?.toLowerCase();
+  return text.replace(/\[(\d{1,2}|[ACEMS])\]/g, (token, sym: string) => {
+    if (/^\d+$/.test(sym)) return `:rb_energy_${sym}:`;
+    switch (sym) {
+      case 'A': return ':rb_rune_rainbow:';
+      case 'C': return domain ? `:rb_rune_${domain}:` : ':rb_rune_rainbow:';
+      case 'E': return ':rb_exhaust:';
+      case 'M': // Might; the Unleashed article also prints it as [S]
+      case 'S': return ':rb_might:';
+      default: return token;
+    }
+  });
+}
+
 /** Resolve the per-region legality lists (banned or errata'd cards only). */
 export function computeLegality(input: LegalityInput): LegalityFile {
   const idx = indexByName(input.cards);
@@ -108,7 +128,7 @@ export function computeLegality(input: LegalityInput): LegalityFile {
         riftbound_id: c.riftbound_id,
         banned: bannedFormats.includes('standard'),
         banned_formats: bannedFormats,
-        errata: err?.text ?? null,
+        errata: err ? errataMarkup(err.text, c.classification.domain) : null,
         errata_date: err?.date ?? null,
       });
     }
