@@ -3,6 +3,8 @@
 # It is served at the root of its host so Riot's verification file resolves at /riot.txt.
 name = "scanrift"
 compatibility_date = "2026-11-01"
+# Keep the workers.dev address alive alongside the custom domains (old links, previews).
+workers_dev = true
 
 # scanrift.lol is a Cloudflare zone (nameservers moved from Porkbun). Custom domains
 # create their own DNS records and certificates.
