@@ -96,7 +96,7 @@ export function createApp(load: DataLoader, opts: { cacheSeconds?: number } = {}
       name: 'riftbound-api',
       description: 'RiftCodex-compatible Riftbound card API with bans, errata and regional legality.',
       endpoints: ['/cards', '/cards/search', '/cards/name', '/cards/{id}', '/cards/riftbound/{riftbound_id}',
-        '/sets', '/sets/set-id/{set_id}', '/sets/{id}', '/legality', '/health'],
+        '/sets', '/sets/set-id/{set_id}', '/sets/{id}', '/legality', '/version', '/health'],
     }),
   );
 
@@ -162,6 +162,11 @@ export function createApp(load: DataLoader, opts: { cacheSeconds?: number } = {}
     const set = ix.data.sets.find((s) => s.id === c.req.param('id'));
     if (!set) throw new QueryError('Set not found', 404);
     return c.json(set);
+  });
+
+  app.get('/version', async (c) => {
+    const ix = await withData(c);
+    return c.json(ix.data.version);
   });
 
   app.get('/legality', async (c) => {

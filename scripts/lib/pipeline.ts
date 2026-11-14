@@ -19,7 +19,7 @@ export interface Sources {
 }
 
 export interface BuildResult {
-  dataset: Dataset;
+  dataset: Omit<Dataset, 'version'>; // the version tag is computed from the written files
   idMap: IdMap;
   hashes: HashState;
   report: string[];

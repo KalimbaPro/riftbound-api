@@ -20,8 +20,9 @@ const app = createApp((c) => {
     readJson<Dataset['cards']>(env, '/data/cards.json'),
     readJson<Dataset['sets']>(env, '/data/sets.json'),
     readJson<Dataset['legality']>(env, '/data/legality.json'),
+    readJson<Dataset['version']>(env, '/data/version.json'),
   ])
-    .then(([cards, sets, legality]) => ({ cards, sets, legality }))
+    .then(([cards, sets, legality, version]) => ({ cards, sets, legality, version }))
     .catch((e) => {
       cached = null;
       throw e;

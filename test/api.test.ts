@@ -28,6 +28,7 @@ const data: Dataset = {
       tc: [],
     },
   },
+  version: { tag: '0123456789abcdef', generated_at: '2026-11-14T10:00:00+00:00', card_count: 3 },
 };
 const app = createApp(async () => data);
 const get = async (path: string) => {
@@ -105,6 +106,12 @@ describe('legality and ?region=', () => {
     const list = (await get('/cards?set_id=OGN&sort=collector_number&region=global')).body.items;
     expect(list.find((c: { id: string }) => c.id === ahri.id).banned).toBe(true);
     expect((await get('/cards?region=eu')).res.status).toBe(422);
+  });
+
+  it('/version returns the data tag', async () => {
+    const { res, body } = await get('/version');
+    expect(res.status).toBe(200);
+    expect(body).toEqual({ tag: '0123456789abcdef', generated_at: '2026-11-14T10:00:00+00:00', card_count: 3 });
   });
 
   it('/legality?region=', async () => {

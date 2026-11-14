@@ -18,7 +18,8 @@ export function loadFromDisk(): Promise<Dataset> {
     readJson<Dataset['cards']>('data/cards.json'),
     readJson<Dataset['sets']>('data/sets.json'),
     readJson<Dataset['legality']>('data/legality.json'),
-  ]).then(([cards, sets, legality]) => ({ cards, sets, legality }));
+    readJson<Dataset['version']>('data/version.json'),
+  ]).then(([cards, sets, legality, version]) => ({ cards, sets, legality, version }));
   return cached;
 }
 

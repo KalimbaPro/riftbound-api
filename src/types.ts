@@ -73,10 +73,22 @@ export interface LegalityFile {
   regions: Record<Region, LegalityItem[]>;
 }
 
+/**
+ * Identifies one build of the catalogue. `tag` is a hash of the cards, sets and every
+ * region's legality, so it changes exactly when a client would see different data;
+ * clients compare it on launch and re-download only when it differs.
+ */
+export interface DataVersion {
+  tag: string;
+  generated_at: string;
+  card_count: number;
+}
+
 export interface Dataset {
   cards: Card[];
   sets: CardSet[];
   legality: LegalityFile;
+  version: DataVersion;
 }
 
 export interface Page<T> {

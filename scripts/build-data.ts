@@ -8,6 +8,7 @@
  */
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 import type { Card } from '../src/types.ts';
 import { applyLegality } from '../src/lib/legality.ts';
@@ -51,6 +52,21 @@ async function main() {
   await writeFile(join(ROOT, 'public/data/cards.json'), jsonLines(cards));
   await writeFile(join(ROOT, 'public/data/sets.json'), pretty(sets));
   await writeFile(join(ROOT, 'public/data/legality.json'), pretty(legality));
+  // The data tag: a hash of everything a client would see. legality.updated_at is left
+  // out so a rebuild of identical data keeps its tag; generated_at likewise stays put
+  // until the tag moves, so an unchanged nightly build produces no diff.
+  const tag = createHash('sha256')
+    .update(JSON.stringify({ cards, sets, regions: legality.regions }))
+    .digest('hex')
+    .slice(0, 16);
+  const versionPath = join(ROOT, 'public/data/version.json');
+  const previous = await readJsonOr<{ tag?: string; generated_at?: string }>(versionPath, {});
+  const version = {
+    tag,
+    generated_at: previous.tag === tag && previous.generated_at ? previous.generated_at : nowIso(),
+    card_count: cards.length,
+  };
+  await writeFile(versionPath, pretty(version));
   await writeFile(idMapPath, pretty(result.idMap));
   await writeFile(hashPath, pretty(result.hashes));
 
@@ -70,7 +86,9 @@ async function main() {
   });
   await writeFile(
     join(ROOT, 'dist/seed/cards.json'),
-    JSON.stringify({ items: seedCards, total: seedCards.length, page: 1, size: seedCards.length, pages: 1 }),
+    // `tag` (additive to the envelope) lets an app that just loaded this seed skip the
+    // download on first launch when the live API is still on the same data.
+    JSON.stringify({ items: seedCards, total: seedCards.length, page: 1, size: seedCards.length, pages: 1, tag }),
   );
 
   for (const line of result.report) console.log(`  ${line}`);
