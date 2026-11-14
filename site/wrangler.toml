@@ -4,7 +4,15 @@
 name = "scanrift"
 compatibility_date = "2026-11-01"
 
+# scanrift.lol is a Cloudflare zone (nameservers moved from Porkbun). Custom domains
+# create their own DNS records and certificates.
+routes = [
+  { pattern = "scanrift.lol", custom_domain = true },
+  { pattern = "www.scanrift.lol", custom_domain = true },
+]
+
 [assets]
 directory = "./public"
 not_found_handling = "404-page"
 html_handling = "auto-trailing-slash"
+
