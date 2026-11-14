@@ -183,6 +183,9 @@ export function assemble(src: Sources, content: Content, prev: { idMap: IdMap; h
       continue;
     }
     for (const [path, value] of Object.entries(o.set)) setPath(c as unknown as Record<string, unknown>, path, value);
+    // An override changes the card, so it must move updated_on like any card we own;
+    // otherwise clients that skip unchanged updated_on never pick the fix up.
+    ourCards.add(c);
   }
 
   // 7. updated_on for cards we own: bumped only when the card's content actually changes,

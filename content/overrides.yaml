@@ -25,3 +25,19 @@ overrides:
       metadata.clean_name: Ahri Nine Tailed Fox Release Event
     sources:
       - https://riftbound.org/cards/prm-promo-cards/ogn-255-298-p/nine-tailed-fox
+
+  # Judge promos (JDG). Every image upstream has is the regular print without the judge
+  # seal, so it would show the wrong card. No image at all: the apps draw a
+  # "Judge promo card" placeholder for every jdg-* card instead.
+  - id: 6a517603ad64d2d80a4f0371
+    riftbound_id: jdg-059-221
+    set:
+      media.image_url: null
+  - id: 6a517603ad64d2d80a4f0372
+    riftbound_id: jdg-087-219
+    set:
+      media.image_url: null
+  - id: 69bc5bf4d308c64675ca8a26
+    riftbound_id: jdg-111-298
+    set:
+      media.image_url: null

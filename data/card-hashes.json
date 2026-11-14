@@ -3,9 +3,29 @@
     "hash": "3bb135a3dc4f7b7737db9ecc9e9f8d742cf14966",
     "updated_on": "2026-11-14T14:15:20+00:00"
   },
+  "jdg-059-221": {
+    "hash": "085767a08a97c97fca55a69e9e8980aaf9f09ac2",
+    "updated_on": "2026-11-14T15:30:48+00:00"
+  },
+  "jdg-087-219": {
+    "hash": "3ad17615d1e776372ef025c80f42379474f26795",
+    "updated_on": "2026-11-14T15:30:48+00:00"
+  },
+  "jdg-111-298": {
+    "hash": "6b6e9883ad76a18bd56abca4b4968abc8f08e14b",
+    "updated_on": "2026-11-14T15:30:48+00:00"
+  },
   "ogn-303a-298": {
     "hash": "023ed900f5f65dff4443cb7021e84588de2512bb",
     "updated_on": "2026-11-14T14:15:20+00:00"
+  },
+  "opp-255-298": {
+    "hash": "af8a535524ba965d50a6e100efa450ce80d4b481",
+    "updated_on": "2026-11-14T15:30:48+00:00"
+  },
+  "pr-066-298": {
+    "hash": "b08dac923e5ed4811e4aafa4ff110f124bcd682e",
+    "updated_on": "2026-11-14T15:30:48+00:00"
   },
   "pr-lunar26-001": {
     "hash": "2e105448c04d014f65e69ec1107b83f840ed2d68",
@@ -852,8 +872,8 @@
     "updated_on": "2026-11-14T14:21:34+00:00"
   },
   "rad-r05": {
-    "hash": "b7e7ee14c58edb03448b4e118ea12fcbd32e97be",
-    "updated_on": "2026-11-14T14:25:23+00:00"
+    "hash": "cfcd9f6bebe7b70428b30022ee047179f4d4621a",
+    "updated_on": "2026-11-14T15:30:48+00:00"
   },
   "rad-r05a": {
     "hash": "3e6374ea5deb7d5f2cbc8db74c69d0e22c7e268b",
