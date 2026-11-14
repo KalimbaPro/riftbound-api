@@ -1,0 +1,27 @@
+# Corrections applied to upstream (RiftCodex / gallery) cards AFTER import.
+# Matched by `id` (never changed); `riftbound_id` is a safety check — the build fails if
+# the card it finds has a different riftbound_id. `set` takes dotted paths into the card.
+overrides:
+  # RiftCodex's "Launch Exclusive" Ahri reused the regular OGN-066 image. The real print
+  # (Origins launch events / 2025 conventions, foil) has a gold circular "LAUNCH EXCLUSIVE"
+  # stamp on the name bar and a PROMO badge instead of the rarity gem; printed "OGN • 066/298".
+  - id: 69bc5beed308c64675ca89bb
+    riftbound_id: pr-066-298
+    set:
+      media.image_url: /images/promo/pr-066-298-ahri-launch-exclusive.jpg
+    sources:
+      - https://www.tcgplayer.com/product/659765 (image)
+      - https://riftbound.org/cards/prm-promo-cards/ogn-066-298-p/ahri-alluring
+
+  # RiftCodex's OPP Ahri, Nine-Tailed Fox had exactly the regular card's name, so it was
+  # indistinguishable from OGN-255 in every list. It is the Origins release-event prize
+  # (foil, regular Envar Studio art, PROMO badge, code OGN-255/298 P). Its two metal
+  # siblings share the code; RiftCodex has one of them as "(Metal)" (69bc5bf1…89f5).
+  # No scan of the foil promo exists online, so the regular-art image stays.
+  - id: 69bc5befd308c64675ca89d0
+    riftbound_id: opp-255-298
+    set:
+      name: Ahri - Nine-Tailed Fox (Release Event)
+      metadata.clean_name: Ahri Nine Tailed Fox Release Event
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/ogn-255-298-p/nine-tailed-fox

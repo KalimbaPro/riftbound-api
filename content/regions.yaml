@@ -1,0 +1,19 @@
+# Competitive regions (raw keys are wire format: ?region=global|kr|tc).
+#
+# Rule (Riot, 2026-11-13): a region behind the global release schedule uses the global
+# ban list as it stood at the end of the season of the latest set released there, i.e.
+# every ban whose `effective` date is BEFORE the global `released` date of the main set
+# that follows `latest_set` (sets.yaml). A region on the newest set gets every ban.
+#
+# When a set releases in Korea or the Traditional Chinese region, change ONE line:
+# that region's latest_set.
+regions:
+  global:
+    label: Global (incl. Mainland China)
+    latest_set: latest   # always the newest main set
+  kr:
+    label: Korea
+    latest_set: OGN   # Korean Origins launched 2026-09-18
+  tc:
+    label: Traditional Chinese (TW/HK/MO)
+    latest_set: OGN

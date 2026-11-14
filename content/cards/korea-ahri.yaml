@@ -1,0 +1,30 @@
+# Korea-exclusive Ahri, Nine-Tailed Fox overnumber (art by Allen Song, "a nod to Dynasty
+# Ahri"), in Korean Origins booster packs from the Korean launch on 2026-09-18.
+# Printed "OGN • 303a/298 • S • KR" — no asterisk; the gold seal and signature are part
+# of the only print Riot has shown.
+# Source: https://playriftbound.com/en-us/news/announcements/koreas-rift-opens-on-september-18/
+set_id: OGN
+cards:
+  - riftbound_id: ogn-303a-298
+    base: ogn-303-298
+    name: Ahri - Nine-Tailed Fox (Korea Exclusive)
+    collector_number: 303
+    rarity: Showcase
+    flags: { alternate_art: true, overnumbered: true }
+    image: /images/promo/ogn-303a-298-ahri-kr.jpg   # Riot's article image (card shown in a banner)
+    artist: Allen Song
+    sources:
+      - https://playriftbound.com/en-us/news/announcements/koreas-rift-opens-on-september-18/
+  # TODO: a separate signed "303a*" printing was requested but research found no evidence
+  # it exists (Riot shows one card, already sealed + signed, printed without "*").
+  # Enable this entry only if a physical 303a* (or an unsigned 303a) turns up.
+  - riftbound_id: ogn-303a*-298
+    disabled: true
+    base: ogn-303-298
+    name: Ahri - Nine-Tailed Fox (Korea Exclusive) (Signature)
+    collector_number: 303
+    rarity: Showcase
+    flags: { alternate_art: true, signature: true }
+    image: /images/promo/ogn-303a-298-ahri-kr.jpg
+    artist: Allen Song
+    sources: []

@@ -1,0 +1,184 @@
+# Riftbound x T1 2025 Worlds Champion Collection — two products, the same five cards,
+# each chosen by a T1 player. Printed "T1S • 00N/005 • EN" / "T1A • 00N/005 • EN"
+# (T1A line visually confirmed on the Ambessa image). Images: riftbound.org.
+#
+#  * T1S — Signature Edition (shipped 2026-09-02, 10,125 sets per language, EN/ZH/KO):
+#    five gold-foil cards, new art by Pandart Studio. Each set contains exactly ONE card,
+#    at random, serial-numbered 1–2025 with the player's signature gold-stamped on it.
+#    Both the plain and the serialized printing are listed below as separate cards.
+#    TODO: the serialized printing's collector line is unverified (riftbound.org slug
+#    "t1s-00N-005-p-serial" suggests the same code); its riftbound_id uses "*" like other
+#    signed printings, and its image is the plain one (no scan of a serial copy found).
+#  * T1A — Player Bundle "Together As One" (drawing 2026-11-13..16, ships mid-December
+#    2026): same five cards with T1 Worlds 2025 skin splash art; no serialized cards.
+#
+# Sources:
+#   https://playriftbound.com/en-us/news/announcements/the-riftbound-x-t1-2025-worlds-champion-collection
+#   https://playriftbound.com/en-us/news/announcements/product-drawing-faq/
+#   https://riftbound.org/news/riftbounds-t1-player-bundle-worlds-2026-drawings
+cards:
+  - riftbound_id: t1s-001-005
+    set_id: T1S
+    base: ven-084-166   # Ambessa, The Wolf — chosen by Doran
+    name: Ambessa - The Wolf (T1 Signature Edition)
+    collector_number: 1
+    rarity: Promo
+    flags: { signature: false }
+    image: /images/promo/t1s-001-005-p-ambessa-the-wolf.webp
+    artist: Pandart Studio
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1s-001-005-p/ambessa-the-wolf
+  - riftbound_id: t1s-001*-005
+    set_id: T1S
+    base: ven-084-166   # Ambessa, The Wolf — chosen by Doran
+    name: Ambessa - The Wolf (T1 Signature Edition) (Serialized)
+    collector_number: 1
+    rarity: Promo
+    flags: { signature: true }
+    image: /images/promo/t1s-001-005-p-ambessa-the-wolf.webp
+    artist: Pandart Studio
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1s-001-005-p-serial/ambessa-the-wolf
+  - riftbound_id: t1s-002-005
+    set_id: T1S
+    base: sfd-176-221   # Xin Zhao, Vigilant — chosen by Oner
+    name: Xin Zhao - Vigilant (T1 Signature Edition)
+    collector_number: 2
+    rarity: Promo
+    flags: { signature: false }
+    image: /images/promo/t1s-002-005-p-xin-zhao-vigilant.webp
+    artist: Pandart Studio
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1s-002-005-p/xin-zhao-vigilant
+  - riftbound_id: t1s-002*-005
+    set_id: T1S
+    base: sfd-176-221   # Xin Zhao, Vigilant — chosen by Oner
+    name: Xin Zhao - Vigilant (T1 Signature Edition) (Serialized)
+    collector_number: 2
+    rarity: Promo
+    flags: { signature: true }
+    image: /images/promo/t1s-002-005-p-xin-zhao-vigilant.webp
+    artist: Pandart Studio
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1s-002-005-p-serial/xin-zhao-vigilant
+  - riftbound_id: t1s-003-005
+    set_id: T1S
+    base: unl-171-219   # Galio, Indefatigable — chosen by Faker
+    name: Galio - Indefatigable (T1 Signature Edition)
+    collector_number: 3
+    rarity: Promo
+    flags: { signature: false }
+    image: /images/promo/t1s-003-005-p-galio-indefatigable.webp
+    artist: Pandart Studio
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1s-003-005-p/galio-indefatigable
+  - riftbound_id: t1s-003*-005
+    set_id: T1S
+    base: unl-171-219   # Galio, Indefatigable — chosen by Faker
+    name: Galio - Indefatigable (T1 Signature Edition) (Serialized)
+    collector_number: 3
+    rarity: Promo
+    flags: { signature: true }
+    image: /images/promo/t1s-003-005-p-galio-indefatigable.webp
+    artist: Pandart Studio
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1s-003-005-p-serial/galio-indefatigable
+  - riftbound_id: t1s-004-005
+    set_id: T1S
+    base: ogn-193-298   # Miss Fortune, Buccaneer — chosen by Gumayusi
+    name: Miss Fortune - Buccaneer (T1 Signature Edition)
+    collector_number: 4
+    rarity: Promo
+    flags: { signature: false }
+    image: /images/promo/t1s-004-005-p-miss-fortune-buccaneer.webp
+    artist: Pandart Studio
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1s-004-005-p/miss-fortune-buccaneer
+  - riftbound_id: t1s-004*-005
+    set_id: T1S
+    base: ogn-193-298   # Miss Fortune, Buccaneer — chosen by Gumayusi
+    name: Miss Fortune - Buccaneer (T1 Signature Edition) (Serialized)
+    collector_number: 4
+    rarity: Promo
+    flags: { signature: true }
+    image: /images/promo/t1s-004-005-p-miss-fortune-buccaneer.webp
+    artist: Pandart Studio
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1s-004-005-p-serial/miss-fortune-buccaneer
+  - riftbound_id: t1s-005-005
+    set_id: T1S
+    base: rad-138-167   # Seraphine, Not Alone — chosen by Keria
+    name: Seraphine - Not Alone (T1 Signature Edition)
+    collector_number: 5
+    rarity: Promo
+    flags: { signature: false }
+    image: /images/promo/t1s-005-005-p-seraphine-not-alone.webp
+    artist: Pandart Studio
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1s-005-005-p/seraphine-not-alone
+  - riftbound_id: t1s-005*-005
+    set_id: T1S
+    base: rad-138-167   # Seraphine, Not Alone — chosen by Keria
+    name: Seraphine - Not Alone (T1 Signature Edition) (Serialized)
+    collector_number: 5
+    rarity: Promo
+    flags: { signature: true }
+    image: /images/promo/t1s-005-005-p-seraphine-not-alone.webp
+    artist: Pandart Studio
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1s-005-005-p-serial/seraphine-not-alone
+  - riftbound_id: t1a-001-005
+    set_id: T1A
+    base: ven-084-166   # Ambessa, The Wolf — chosen by Doran
+    name: Ambessa - The Wolf (T1 Player Bundle)
+    collector_number: 1
+    rarity: Promo
+    flags: { signature: false }
+    image: /images/promo/t1a-001-005-p-ambessa-the-wolf.webp
+    artist: League Splash Team
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1a-001-005-p/ambessa-the-wolf
+  - riftbound_id: t1a-002-005
+    set_id: T1A
+    base: sfd-176-221   # Xin Zhao, Vigilant — chosen by Oner
+    name: Xin Zhao - Vigilant (T1 Player Bundle)
+    collector_number: 2
+    rarity: Promo
+    flags: { signature: false }
+    image: /images/promo/t1a-002-005-p-xin-zhao-vigilant.webp
+    artist: League Splash Team
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1a-002-005-p/xin-zhao-vigilant
+  - riftbound_id: t1a-003-005
+    set_id: T1A
+    base: unl-171-219   # Galio, Indefatigable — chosen by Faker
+    name: Galio - Indefatigable (T1 Player Bundle)
+    collector_number: 3
+    rarity: Promo
+    flags: { signature: false }
+    image: /images/promo/t1a-003-005-p-galio-indefatigable.webp
+    artist: League Splash Team
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1a-003-005-p/galio-indefatigable
+  - riftbound_id: t1a-004-005
+    set_id: T1A
+    base: ogn-193-298   # Miss Fortune, Buccaneer — chosen by Gumayusi
+    name: Miss Fortune - Buccaneer (T1 Player Bundle)
+    collector_number: 4
+    rarity: Promo
+    flags: { signature: false }
+    image: /images/promo/t1a-004-005-p-miss-fortune-buccaneer.webp
+    artist: League Splash Team
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1a-004-005-p/miss-fortune-buccaneer
+  - riftbound_id: t1a-005-005
+    set_id: T1A
+    base: rad-138-167   # Seraphine, Not Alone — chosen by Keria
+    name: Seraphine - Not Alone (T1 Player Bundle)
+    collector_number: 5
+    rarity: Promo
+    flags: { signature: false }
+    image: /images/promo/t1a-005-005-p-seraphine-not-alone.webp
+    artist: League Splash Team
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/t1a-005-005-p/seraphine-not-alone

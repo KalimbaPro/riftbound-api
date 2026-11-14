@@ -1,0 +1,45 @@
+# Set metadata the upstream sources do not carry.
+#
+#   set_id    – printed set code
+#   name      – display name (required for sets RiftCodex does not have)
+#   released  – GLOBAL release date (YYYY-MM-DD)
+#   main      – true for main expansions. Their order by `released` defines "the set
+#               following a region's latest set" in the regional ban rule (regions.yaml).
+#   source    – where the date comes from
+sets:
+  - set_id: OGN
+    released: "2025-10-31"
+    main: true
+    source: RiftCodex published_on
+  - set_id: SFD
+    released: "2026-02-13"
+    main: true
+    source: RiftCodex published_on
+  - set_id: UNL
+    released: "2026-05-08"
+    main: true
+    source: RiftCodex published_on
+  - set_id: VEN
+    released: "2026-07-31"
+    main: true
+    source: RiftCodex published_on
+  - set_id: RAD
+    name: Radiance
+    released: "2026-10-23"
+    main: true
+    source: https://playriftbound.com/en-us/news/announcements/the-radiance-overview/ ("Release October 23, 2026")
+  - set_id: SGN
+    name: Secret Garden
+    released: "2026-07-10"
+    main: false
+    source: Secret Garden bundle, China release 2026-07-10; English at Gen Con 2026
+  - set_id: T1S
+    name: T1 2025 Worlds Champion Signature Edition
+    released: "2026-09-02"
+    main: false
+    source: https://playriftbound.com/en-us/news/announcements/the-riftbound-x-t1-2025-worlds-champion-collection
+  - set_id: T1A
+    name: T1 2025 Worlds Champion Player Bundle
+    released: "2026-12-15"
+    main: false
+    source: https://playriftbound.com/en-us/news/announcements/product-drawing-faq/ (ships from mid-December 2026)

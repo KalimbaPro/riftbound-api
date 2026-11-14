@@ -1,0 +1,24 @@
+# Lunar Revel Bundle 2026 (Simplified Chinese only): one Chinese-language alt-art
+# "Mythmaker" Irelia, Blade Dancer Legend. Orders from 2026-02-17, shipped from May 2026.
+# Source: https://playriftbound.com/en-us/news/announcements/january-merch-store-updates/
+#
+# TODO: the printed collector line is unreadable in every available image and no
+# database lists it. Best guess "SFD • 195/221 • P • SC" (unverified). The riftbound_id
+# below is INVENTED so it can never collide with a real code; replace it (and the image,
+# which is the bundle box shot) once someone reads a physical card. Changing riftbound_id
+# later is safe for the card's `id` only if data/id-map.json keeps the old id: move the
+# entry's key in id-map.json rather than deleting it.
+set_id: PR
+cards:
+  - riftbound_id: pr-lunar26-001     # TODO invented, see above
+    base: sfd-195-221                # Irelia, Blade Dancer (Legend)
+    name: Irelia - Blade Dancer (Lunar Revel 2026)
+    collector_number: 195
+    rarity: Promo
+    flags: { alternate_art: true }
+    image: /images/promo/lunar-revel-2026-irelia-bundle.jpg
+    artist: null
+    sources:
+      - https://playriftbound.com/en-us/news/announcements/january-merch-store-updates/
+      - https://riftbound.gg (lists "Irelia Blade Dancer - Promo (Simplified Chinese)")
+      - https://riftbound.org/products/lunar-revel-bundle-2026 ("Exclusive printing, not in the official gallery")

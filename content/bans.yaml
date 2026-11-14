@@ -1,0 +1,73 @@
+# Official ban announcements. Add a new entry at the end when Riot announces one.
+#
+#   announced  – article publish date
+#   effective  – date the bans take effect (drives the regional rule, see regions.yaml)
+#   source     – the article
+#   bans       – groups of cards sharing the same formats:
+#       formats: standard and/or 2v2. The 2v2 list is "the entire Standard list plus…"
+#                (July 2026 article), so a Standard ban is listed for both formats.
+#       cards:   names as printed in the article. Each must resolve to ≥1 catalogue card
+#                (case, punctuation and "Name, Title" vs "Name - Title" are ignored).
+#                If one does not, write {name: <article spelling>, match: <catalogue name>}.
+#
+# Bans attach by name to every printing (alt art, overnumbered, signature, promo).
+announcements:
+  - title: Announcing Riftbound's First Bans
+    announced: "2026-03-30"
+    effective: "2026-03-31"
+    source: https://playriftbound.com/en-us/news/announcements/announcing-riftbounds-first-bans/
+    bans:
+      - formats: [standard, 2v2]
+        cards:
+          - Called Shot
+          - Draven, Vanquisher
+          - Fight or Flight
+          - Scrapheap
+          - { name: Dreaming Tree, match: The Dreaming Tree }
+          - Obelisk of Power
+          - Reaver’s Row
+
+  - title: July Ban List Updates
+    announced: "2026-07-17"
+    effective: "2026-07-24"
+    source: https://playriftbound.com/en-us/news/announcements/july-ban-list-updates/
+    bans:
+      - formats: [standard, 2v2]
+        cards:
+          - Stealthy Pursuer
+          - The Arena’s Greatest
+          - Aspirant’s Climb
+      # The 2v2 list was created here: the Standard list plus this Legend, 2v2 only.
+      - formats: [2v2]
+        cards:
+          - Master Yi, Wuju Bladesman
+
+  - title: September Ban List Updates (Effective September 18, 2026)
+    announced: "2026-09-15"
+    effective: "2026-09-18"
+    source: https://playriftbound.com/en-us/news/announcements/september-ban-list-updates-effective-september-18-2026/
+    bans:
+      - formats: [standard, 2v2]
+        cards:
+          - Ekko, Recurrent
+          - Stacked Deck
+
+  - title: Radiance Ban List Updates (Effective November 23, 2026)
+    announced: "2026-11-13"
+    effective: "2026-11-23"
+    source: https://playriftbound.com/en-us/news/announcements/radiance-ban-list-updates-effective-november-23-2026/
+    # "will not affect competitive events in Korea and Traditional Chinese regions until
+    # Radiance is released in those regions" – handled by the regional rule, not here.
+    bans:
+      - formats: [standard, 2v2]
+        cards:
+          - Riven, Broken Blade
+          - Zhonya's Hourglass
+          - Stellacorn Herder
+          - Nocturne, Horrifying
+          - Rhasa the Sunderer
+          - Brynhir Thundersong
+          - Dazzling Aurora
+          - Baited Hook
+          - Emperor's Dais
+          - Star Spring
