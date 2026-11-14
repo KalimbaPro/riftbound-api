@@ -221,7 +221,7 @@ npx wrangler dev --config site/wrangler.toml # preview locally
 ```
 
 The Deploy workflow publishes it as a second, assets-only Worker named `scanrift`
-(`https://scanrift.kalimbapro.workers.dev`) with the same Cloudflare secrets. Edit the
+(`https://scanrift.lol`, also reachable at `scanrift.kalimbapro.workers.dev`) with the same Cloudflare secrets. English pages sit at the root and French ones under `site/src/fr/` with the same slugs; the build fails if a page is missing in either language. Edit the
 pages in `site/src/`; the privacy policy's date lives at the top of
 `site/src/privacy/index.html`.
 

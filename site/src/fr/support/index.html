@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aide ScanRift</title>
+  <meta name="description" content="Besoin d'aide avec ScanRift, le scanner de cartes Riftbound ? Signalez un bug, une carte manquante ou un mauvais scan, ou proposez une idée.">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+{{header:support}}
+
+<main class="wrap doc">
+  <h1>Aide</h1>
+  <p class="meta">Quelque chose ne marche pas, une carte manque, ou vous avez une idée pour l'appli ? Voici comment me contacter.</p>
+
+  <div class="callout">{{icon:lifebuoy}}<p><strong>Le plus simple, c'est GitHub.</strong> <a href="{{android_repo}}/issues/new">Ouvrez un ticket</a> avec votre question ou le problème rencontré, et je vous répondrai là-bas. Vous pouvez aussi <a href="{{android_repo}}/issues">consulter les tickets existants</a> avant. Il faut un compte GitHub (gratuit) pour écrire. Vous pouvez écrire en français.</p></div>
+
+  <h2>Ce qui m'aide à corriger un problème</h2>
+  <ul>
+    <li>Votre appareil et la version du système, par exemple « Galaxy Z Fold 6, Android 16 » ou « iPhone, iOS 27 ».</li>
+    <li>La version de l'appli (sur Android, elle est indiquée dans les Réglages).</li>
+    <li>Ce que vous avez fait, ce que vous attendiez et ce qui s'est passé. Une capture d'écran aide beaucoup.</li>
+    <li>Pour une carte mal reconnue, le code imprimé en bas à gauche, par exemple <code>OGN • 066a/298 • FR</code>.</li>
+  </ul>
+
+  <h2>Questions fréquentes</h2>
+
+  <h3>Une carte est reconnue dans la mauvaise version.</h3>
+  <p>Touchez la puce avec l'extension et le numéro sous la carte scannée pour voir toutes ses versions, puis choisissez la vôtre. Une puce marquée « ? » signifie que l'appli n'a pas pu départager les versions toute seule.</p>
+
+  <h3>La langue détectée est fausse.</h3>
+  <p>Touchez la puce avec le drapeau sous la carte scannée pour la changer, ou choisissez une langue fixe à la place d'Auto pour les prochains scans.</p>
+
+  <h3>Une carte apparaît bannie alors qu'elle ne l'est pas dans ma région.</h3>
+  <p>Les bannissements peuvent varier selon la région de compétition. Choisissez votre région dans les Réglages : la liste des bannissements se met à jour aussitôt.</p>
+
+  <h3>Une nouvelle extension ou une carte promo manque.</h3>
+  <p>L'appli met à jour sa liste de cartes à l'ouverture dès que de nouvelles données sont disponibles. Si une carte manque toujours, ouvrez un ticket avec son nom et son code.</p>
+
+  <h3>Comment transférer ma collection sur un nouveau téléphone ?</h3>
+  <p>Dans les Réglages, exportez une sauvegarde, puis restaurez-la sur le nouvel appareil. Le même fichier fonctionne sur Android et iOS.</p>
+
+  <h2>Confidentialité</h2>
+  <p>ScanRift n'a pas de compte et ne collecte aucune donnée personnelle. Lisez la <a href="/fr/privacy/">politique de confidentialité</a>.</p>
+</main>
+
+{{footer}}
+</body>
+</html>

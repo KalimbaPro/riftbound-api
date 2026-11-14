@@ -114,3 +114,9 @@ footer p { margin: 0; max-width: 40rem; }
 .faq h3 { margin-top: 1.25rem; }
 .faq h3:first-child { margin-top: 0; }
 .faq p { margin: .3rem 0 0; color: var(--muted); }
+
+/* Language switch: set apart from the page links so it reads as a setting */
+.top nav a.lang { padding-left: 1.25rem; border-left: 1px solid var(--line); }
+@media (max-width: 30rem) { .top nav a.lang { padding-left: .9rem; } }
+.top { flex-wrap: wrap; }
+.top nav { flex-wrap: wrap; row-gap: .4rem; }

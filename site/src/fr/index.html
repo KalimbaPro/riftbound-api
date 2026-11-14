@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ScanRift : scanner de cartes Riftbound, suivi de collection et compteur de points</title>
+  <meta name="description" content="ScanRift est une appli gratuite pour les joueurs de Riftbound. Scannez vos cartes avec l'appareil photo de votre téléphone, suivez votre collection et comptez les points pendant vos parties.">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "ScanRift",
+    "inLanguage": "fr",
+    "operatingSystem": "Android",
+    "applicationCategory": "UtilitiesApplication",
+    "description": "Scannez vos cartes Riftbound, suivez votre collection et comptez les points pendant vos parties.",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+    "url": "{{site_url}}/fr/",
+    "sameAs": ["https://github.com/KalimbaPro/ScanRiftAndroid"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "fr",
+    "mainEntity": [
+      { "@type": "Question", "name": "ScanRift est-il gratuit ?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Oui. Pas de publicité, pas d'abonnement et pas de compte à créer." } },
+      { "@type": "Question", "name": "Quelles langues de cartes sont gérées ?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Anglais, français, chinois et coréen. La langue est détectée pendant le scan, et vous pouvez toujours la changer à la main." } },
+      { "@type": "Question", "name": "Est-ce que l'appli suit les nouvelles extensions ?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Oui. La liste des cartes se met à jour toute seule à l'ouverture de l'appli, et Radiance est déjà dedans." } },
+      { "@type": "Question", "name": "Existe-t-il une version iPhone ?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Elle arrive bientôt. La version Android est déjà disponible." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+{{header:home}}
+
+<main class="wrap">
+  <div class="hero">
+    {{logo}}
+    <h1>Scannez vos cartes Riftbound. Comptez les points à table.</h1>
+    <p class="lede">ScanRift est une appli gratuite pour les joueurs de Riftbound. Passez vos cartes devant l'appareil photo pour les ajouter à votre collection, puis servez-vous-en pour compter les points quand vous jouez.</p>
+    <div class="platforms">
+      <a class="platform" href="{{android_repo}}">{{icon:android-logo}} Android <small>disponible</small></a>
+      <span class="platform soon">{{icon:apple-logo}} iPhone et iPad <small>bientôt</small></span>
+    </div>
+  </div>
+
+  <section aria-labelledby="features">
+    <h2 id="features">Ce que vous pouvez en faire</h2>
+    <ul class="features">
+      <li>{{icon:scan}}<h3>Scanner vos cartes</h3><p>Tenez une carte sous l'objectif et ScanRift lit le numéro dans le coin. Une page de classeur entière ? Une seule photo suffit pour toutes les cartes. Si vous avez une illustration alternative ou une version signée, vous choisissez la bonne version en un geste.</p></li>
+      <li>{{icon:books}}<h3>Suivre votre collection</h3><p>Voyez ce que vous avez et ce qui vous manque, extension par extension. Les exemplaires anglais, français, chinois et coréens sont séparés, pour savoir exactement lequel est dans votre classeur.</p></li>
+      <li>{{icon:trophy}}<h3>Compter les points</h3><p>Posez le téléphone sur la table et touchez votre côté pour marquer. Indiquez si le point vient d'une conquête, d'un champ de bataille tenu ou d'une capacité, et annulez-le en cas d'erreur. De 2 à 4 joueurs, avec matchs en deux manches gagnantes et historique des parties.</p></li>
+      <li>{{icon:cards}}<h3>Construire des decks</h3><p>Montez un deck à partir de vos cartes ou collez une liste de riftbound.gg. ScanRift vérifie les règles au fur et à mesure et vous prévient si une carte est bannie ou a reçu un erratum.</p></li>
+      <li>{{icon:columns}}<h3>À l'aise sur grand écran</h3><p>Sur un pliable ou une tablette, la liste et la carte s'affichent côte à côte, et vous réglez la largeur en faisant glisser le séparateur.</p></li>
+      <li>{{icon:shield-check}}<h3>Rien à créer</h3><p>Pas de compte, pas de pub, pas de pistage. Votre collection reste sur votre téléphone. <a href="/fr/privacy/">Politique de confidentialité</a>.</p></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="faq">
+    <h2 id="faq">Questions</h2>
+    <div class="faq">
+      <h3>ScanRift est-il gratuit ?</h3>
+      <p>Oui. Pas de publicité, pas d'abonnement et pas de compte à créer.</p>
+      <h3>Quelles langues de cartes sont gérées ?</h3>
+      <p>Anglais, français, chinois et coréen. La langue est détectée pendant le scan, et vous pouvez toujours la changer à la main.</p>
+      <h3>Est-ce que l'appli suit les nouvelles extensions ?</h3>
+      <p>Oui. La liste des cartes se met à jour toute seule à l'ouverture de l'appli, et Radiance est déjà dedans.</p>
+      <h3>Existe-t-il une version iPhone ?</h3>
+      <p>Elle arrive bientôt. La version Android est déjà disponible.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="open">
+    <h2 id="open">Open source</h2>
+    <p>L'appli Android est développée en open source. Vous pouvez lire le code, suivre ce qui arrive ou signaler un bug sur GitHub.</p>
+    <p><a href="{{android_repo}}">{{icon:github-logo}} KalimbaPro/ScanRiftAndroid</a></p>
+  </section>
+</main>
+
+{{footer}}
+</body>
+</html>
