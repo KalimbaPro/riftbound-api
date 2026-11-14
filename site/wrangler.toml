@@ -6,10 +6,11 @@ compatibility_date = "2026-11-01"
 # Keep the workers.dev address alive alongside the custom domains (old links, previews).
 workers_dev = true
 
-# scanrift.lol is a Cloudflare zone (nameservers moved from Porkbun). Custom domains
-# create their own DNS records and certificates.
+# scanrift.lol is a Cloudflare zone (nameservers moved from Porkbun). www is a custom
+# domain (Cloudflare manages its DNS record). The apex is a route instead: it keeps
+# working whatever proxied record sits on scanrift.lol, which a custom domain refuses.
 routes = [
-  { pattern = "scanrift.lol", custom_domain = true },
+  { pattern = "scanrift.lol/*", zone_name = "scanrift.lol" },
   { pattern = "www.scanrift.lol", custom_domain = true },
 ]
 
