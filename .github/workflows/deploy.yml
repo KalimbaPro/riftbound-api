@@ -28,3 +28,6 @@ jobs:
       - name: wrangler deploy
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         run: npx wrangler deploy
+      - name: Deploy the ScanRift website
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
+        run: node site/build.mjs && npx wrangler deploy --config site/wrangler.toml

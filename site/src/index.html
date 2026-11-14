@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ScanRift</title>
+  <meta name="description" content="ScanRift is a companion app for the Riftbound trading card game: scan your cards with the camera, keep your collection in every language, build legal decks and track your games.">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+{{header:home}}
+
+<main class="wrap">
+  <div class="hero">
+    {{logo}}
+    <h1>Your Riftbound collection, one scan away.</h1>
+    <p class="lede">ScanRift is a companion app for the Riftbound trading card game. Point your camera at a card or a whole binder page, and it lands in your collection, ready for deck building.</p>
+    <div class="platforms">
+      <a class="platform" href="{{android_repo}}">{{icon:android-logo}} Android <small>available</small></a>
+      <span class="platform soon">{{icon:apple-logo}} iPhone and iPad <small>coming soon</small></span>
+    </div>
+  </div>
+
+  <section aria-labelledby="features">
+    <h2 id="features">What it does</h2>
+    <ul class="features">
+      <li>{{icon:scan}}<h3>Scan cards</h3><p>Reads the collector number with the camera, one card at a time or a full binder page from a single photo. Pick the exact version (alternate art, overnumbered, signature) in one tap.</p></li>
+      <li>{{icon:translate}}<h3>Every language</h3><p>Keeps English, French, Chinese and Korean copies apart, detects the language while scanning and sorts your collection by flag.</p></li>
+      <li>{{icon:cards}}<h3>Build decks</h3><p>Checks the deck rules as you build, flags banned cards for your competitive region and shows the official errata on each card.</p></li>
+      <li>{{icon:trophy}}<h3>Track games</h3><p>A point tracker for two to four players, with best-of-three matches and a history of your results.</p></li>
+      <li>{{icon:columns}}<h3>Made for big screens</h3><p>Two panes on foldables and tablets, with a divider you can drag to the width you like.</p></li>
+      <li>{{icon:shield-check}}<h3>No account, no tracking</h3><p>Your collection stays on your device. No sign-up, no ads, no analytics. <a href="/privacy/">Privacy policy</a>.</p></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="open">
+    <h2 id="open">Open source</h2>
+    <p>The Android app is developed in the open. Read the code, follow its progress or report a problem on GitHub.</p>
+    <p><a href="{{android_repo}}">{{icon:github-logo}} KalimbaPro/ScanRiftAndroid</a></p>
+  </section>
+</main>
+
+{{footer}}
+</body>
+</html>

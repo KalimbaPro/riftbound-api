@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ScanRift Support</title>
+  <meta name="description" content="Get help with ScanRift: report a problem, ask a question or suggest a feature.">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+{{header:support}}
+
+<main class="wrap doc">
+  <h1>Support</h1>
+  <p class="meta">Questions, bugs and suggestions for ScanRift on Android and iOS.</p>
+
+  <div class="callout">{{icon:lifebuoy}}<p><strong>Contact us on GitHub.</strong> <a href="{{android_repo}}/issues/new">Open an issue</a> to report a problem or ask a question, or <a href="{{android_repo}}/issues">browse existing issues</a>. A free GitHub account is needed to post.</p></div>
+
+  <h2>When reporting a problem</h2>
+  <ul>
+    <li>Your device and system version, for example "Galaxy Z Fold 6, Android 16" or "iPhone, iOS 27".</li>
+    <li>The app version (on Android it is shown in Settings).</li>
+    <li>What you did, what you expected and what happened. A screenshot helps.</li>
+    <li>For a card that scans wrong, the code printed in its bottom-left corner, for example <code>OGN • 066a/298 • EN</code>.</li>
+  </ul>
+
+  <h2>Common questions</h2>
+
+  <h3>A card is scanned as the wrong version.</h3>
+  <p>Tap the set and number chip under the scanned card to see every printing of that card, then pick the one you have. A chip marked "?" means the app could not tell the versions apart on its own.</p>
+
+  <h3>The language detected is wrong.</h3>
+  <p>Tap the flag chip under the scanned card to change it, or choose a fixed language instead of Auto for the next scans.</p>
+
+  <h3>A card shows as banned but isn't in my region.</h3>
+  <p>Bans can differ by competitive region. Choose your region in Settings; the app updates the ban list right away.</p>
+
+  <h3>A new set or a promo card is missing.</h3>
+  <p>The app updates its card list on launch whenever new data is available. If a card is still missing, open an issue with its name and code.</p>
+
+  <h3>How do I move my collection to a new phone?</h3>
+  <p>Use Settings to export a backup file, then restore it on the new device. The same file works on Android and iOS.</p>
+
+  <h2>Privacy</h2>
+  <p>ScanRift has no account and collects no personal data. Read the <a href="/privacy/">privacy policy</a>.</p>
+</main>
+
+{{footer}}
+</body>
+</html>

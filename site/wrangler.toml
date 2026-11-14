@@ -1,0 +1,10 @@
+# The ScanRift website: a static-assets-only Worker, deployed next to the API with the
+# same Cloudflare credentials. Build it first: `node site/build.mjs`.
+# It is served at the root of its host so Riot's verification file resolves at /riot.txt.
+name = "scanrift"
+compatibility_date = "2026-11-01"
+
+[assets]
+directory = "./public"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"

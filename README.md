@@ -208,6 +208,23 @@ Data updates: keep the nightly build in GitHub Actions and pull it on the NAS, e
 healthcheck hits `/health` every 5 minutes and logs nothing to disk. Then follow steps 8–9
 above with your tunnel hostname.
 
+## Website (ScanRift landing page)
+
+`site/` holds the app's public website: the landing page, the privacy policy and the
+support page that the App Store and Google Play listings link to, plus Riot's
+`riot.txt` verification file at the root. It is plain HTML with a tiny build step that
+inlines Phosphor icons (`site/icons/`) and the shared header and footer:
+
+```bash
+node site/build.mjs                          # site/src → site/public
+npx wrangler dev --config site/wrangler.toml # preview locally
+```
+
+The Deploy workflow publishes it as a second, assets-only Worker named `scanrift`
+(`https://scanrift.kalimbapro.workers.dev`) with the same Cloudflare secrets. Edit the
+pages in `site/src/`; the privacy policy's date lives at the top of
+`site/src/privacy/index.html`.
+
 ## Repository layout
 
 ```
