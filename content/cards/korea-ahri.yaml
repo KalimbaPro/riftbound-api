@@ -12,6 +12,8 @@ cards:
     rarity: Showcase
     flags: { alternate_art: true, overnumbered: true }
     image: /images/promo/ogn-303a-298-ahri-kr-card.jpg
+    localized_images:
+      ko: /images/promo/ogn-303a-298-ahri-kr-card.jpg
     artist: Allen Song
     sources:
       - https://playriftbound.com/en-us/news/announcements/koreas-rift-opens-on-september-18/

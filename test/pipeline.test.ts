@@ -34,7 +34,8 @@ function fixture() {
       { set_id: 'SGN', name: 'Secret Garden', released: '2026-07-10', main: false },
     ],
     manualCards: [{ file: 'x.yaml', riftbound_id: 'sgn-001-003', set_id: 'SGN', base: 'ogn-066-298',
-      collector_number: 1, rarity: 'Promo', image: '/images/promo/x.webp', artist: null }],
+      collector_number: 1, rarity: 'Promo', image: '/images/promo/x.webp', artist: null,
+      localized_images: { zh: '/images/promo/x-zh.webp' } }],
     overrides: [{ id: '69bc5bcad308c64675ca86fd', riftbound_id: 'ogn-066-298', set: { 'media.artist': 'Fixed' } }],
   };
   return { sources, content };
@@ -57,6 +58,7 @@ describe('assemble()', () => {
       classification: { rarity: 'Promo' }, media: { image_url: '/images/promo/x.webp' } });
     expect(by('ogn-066-298').media.artist).toBe('Fixed');
     expect(by('ogn-066-298').localizations?.zh?.name).toBe('阿狸 - 嫣然狐媚');
+    expect(promo.localizations).toEqual({ zh: { ...by('ogn-066-298').localizations!.zh, image_url: '/images/promo/x-zh.webp' } });
     expect(r.dataset.sets.find((s) => s.set_id === 'OGN')!.card_count).toBe(3);
     expect(r.dataset.sets.find((s) => s.set_id === 'RAD')!.id).toBe(newId('set:RAD'));
   });

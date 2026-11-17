@@ -129,6 +129,7 @@ cards:
     rarity: Promo
     flags: { alternate_art: false, overnumbered: false, signature: false }
     image: /images/promo/sgn-001-003-lillia.webp   # file in public/images/promo/, or https://…
+    localized_images: { ko: /images/promo/….jpg }   # optional: the base's ko name/text with this image
     artist: null
     sources: [https://…]
     # disabled: true              # keep an unverified card documented but out of the data

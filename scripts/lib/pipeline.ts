@@ -166,6 +166,16 @@ export function assemble(src: Sources, content: Content, prev: { idMap: IdMap; h
       new: false,
     };
     delete card.localizations; // the base's localised images are not this print
+    const printLocalizations: NonNullable<Card['localizations']> = {};
+    for (const [lang, image_url] of Object.entries(m.localized_images ?? {})) {
+      const baseLocalization = base.localizations?.[lang];
+      if (!baseLocalization) {
+        problems.push(`cards/${m.file} ${m.riftbound_id}: base ${m.base} has no ${lang} localization`);
+        continue;
+      }
+      printLocalizations[lang] = { ...baseLocalization, image_url };
+    }
+    if (Object.keys(printLocalizations).length) card.localizations = printLocalizations;
     cards.push(card);
     ourCards.add(card);
   }

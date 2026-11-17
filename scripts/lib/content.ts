@@ -48,6 +48,7 @@ export interface ManualCard {
   rarity?: string;
   flags?: { alternate_art?: boolean; overnumbered?: boolean; signature?: boolean };
   image?: string | null;
+  localized_images?: Record<string, string>;
   artist?: string | null;
   tcgplayer_id?: string | null;
   sources?: string[];
