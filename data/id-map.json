@@ -1,4 +1,9 @@
 {
+  "kda-001*-005": "7f9a98841ef2693177ae0acb",
+  "kda-002*-005": "c51edf08712b9cc96dd5eb9e",
+  "kda-003*-005": "53b121058b20f4df01cfc386",
+  "kda-004*-005": "ba26cd1e61118af72896fd99",
+  "kda-005-005": "c2d350793e232bd62663b701",
   "ogn-303a-298": "7546431e4bc88e6094f0670f",
   "pr-lunar26-001": "cbaae7722c28aa788c473c18",
   "rad-001-167": "0151cb3a4788a1f2a597522f",
@@ -220,6 +225,7 @@
   "rad-sp3-005": "04f01e3caf3bbb21b5671766",
   "rad-sp4-005": "ad2ea7fb60555f5e5d8c0712",
   "rad-sp5-005": "64851af1a00040e57a3371ce",
+  "set:KDA": "1a8b278e4d199b01acfca31e",
   "set:RAD": "97bc2fd33498b8ebc897faed",
   "set:SGN": "8f12b32733e99dc085a1e685",
   "set:T1A": "efccab3b44b66c2351fb234b",

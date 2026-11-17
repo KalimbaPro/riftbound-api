@@ -1,0 +1,59 @@
+# Riftbound x K/DA: Couture Collection — four Legends and a Battlefield from K/DA's
+# FIRESTARTER era, new art by Fortiche. Sold by drawing (registration 2026-10-27..30),
+# released 2026-11-03. Printed "KDA • 00N*/005 • EN" on the Legends (visually confirmed
+# on Ahri) and "KDA • 005/005 • EN" on the Battlefield. Images: riftbound.org.
+#
+# Sources:
+#   https://playriftbound.com/en-us/news/announcements/riftbounds-2026-drawings/
+#   https://riftbound.org/products/kda-couture-collection
+set_id: KDA
+cards:
+  - riftbound_id: kda-001*-005
+    base: ogn-255-298   # Ahri, Nine-Tailed Fox
+    name: Ahri - Nine-Tailed Fox (K/DA Couture)
+    collector_number: 1
+    rarity: Promo
+    flags: { signature: true }
+    image: /images/promo/kda-001-star-005-p-nine-tailed-fox.webp
+    artist: Fortiche Production
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/kda-001-star-005-p/nine-tailed-fox
+  - riftbound_id: kda-002*-005
+    base: rad-153-167   # Evelynn, Agony's Embrace
+    name: Evelynn - Agony's Embrace (K/DA Couture)
+    collector_number: 2
+    rarity: Promo
+    flags: { signature: true }
+    image: /images/promo/kda-002-star-005-p-agonys-embrace.webp
+    artist: Fortiche Production
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/kda-002-star-005-p/agonys-embrace
+  - riftbound_id: kda-003*-005
+    base: ogn-247-298   # Kai'Sa, Daughter of the Void
+    name: Kai'Sa - Daughter of the Void (K/DA Couture)
+    collector_number: 3
+    rarity: Promo
+    flags: { signature: true }
+    image: /images/promo/kda-003-star-005-p-daughter-of-the-void.webp
+    artist: Fortiche Production
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/kda-003-star-005-p/daughter-of-the-void
+  - riftbound_id: kda-004*-005
+    base: ven-139-166   # Akali, Rogue Assassin
+    name: Akali - Rogue Assassin (K/DA Couture)
+    collector_number: 4
+    rarity: Promo
+    flags: { signature: true }
+    image: /images/promo/kda-004-star-005-p-rogue-assassin.webp
+    artist: Fortiche Production
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/kda-004-star-005-p/rogue-assassin
+  - riftbound_id: kda-005-005
+    base: rad-164-167   # Packed Amphitheater
+    name: Packed Amphitheater (K/DA Couture)
+    collector_number: 5
+    rarity: Promo
+    image: /images/promo/kda-005-005-p-packed-amphitheater.webp
+    artist: Fortiche Production
+    sources:
+      - https://riftbound.org/cards/prm-promo-cards/kda-005-005-p/packed-amphitheater

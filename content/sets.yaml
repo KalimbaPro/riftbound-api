@@ -43,3 +43,8 @@ sets:
     released: "2026-12-15"
     main: false
     source: https://playriftbound.com/en-us/news/announcements/product-drawing-faq/ (ships from mid-December 2026)
+  - set_id: KDA
+    name: "Riftbound x K/DA: Couture Collection"
+    released: "2026-11-03"
+    main: false
+    source: https://riftbound.org/products/kda-couture-collection (drawing 2026-10-27..30, release 2026-11-03)
