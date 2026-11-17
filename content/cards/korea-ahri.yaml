@@ -11,9 +11,9 @@ cards:
     collector_number: 303
     rarity: Showcase
     flags: { alternate_art: true, overnumbered: true }
-    image: /images/promo/ogn-303a-298-ahri-kr-card.jpg
+    image: /images/promo/ogn-303a-298-ahri-kr.png
     localized_images:
-      ko: /images/promo/ogn-303a-298-ahri-kr-card.jpg
+      ko: /images/promo/ogn-303a-298-ahri-kr.png
     artist: Allen Song
     sources:
       - https://playriftbound.com/en-us/news/announcements/koreas-rift-opens-on-september-18/
@@ -28,6 +28,6 @@ cards:
     collector_number: 303
     rarity: Showcase
     flags: { alternate_art: true, signature: true }
-    image: /images/promo/ogn-303a-298-ahri-kr-card.jpg
+    image: /images/promo/ogn-303a-298-ahri-kr.png
     artist: Allen Song
     sources: []
